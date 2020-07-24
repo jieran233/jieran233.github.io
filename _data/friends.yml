@@ -1,9 +1,9 @@
-# - name: KeJun
-#   image: https://ooo.0o0.ooo/2017/05/26/5928368d409dd.png
-#   url: https://kejun.me
-#   describe: 二次元智障
+- name: GitHub存储库
+  image: https://s1.ax1x.com/2020/07/24/UvauWR.png
+  url: https://github.com/jieran233/jieran233.github.io
+  describe: 本项目在GitHub上的存储库
 
-# - name: MDUI
-#   image: 
-#   url: https://www.mdui.org/
-#   describe: 一套用于开发 Material Design 网页的前端框架
+- name: 孑染の小窝
+  image: https://i.loli.net/2020/07/24/iH72wNkYI1egKZ9.jpg
+  url: http://jieran233.tk/
+  describe: 旧的blog站点
