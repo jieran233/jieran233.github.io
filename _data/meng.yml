@@ -28,7 +28,7 @@ background: # Meng background
   text_color: '#000'
 
 card: # Meng card
-  switch: true
+  switch: false
   background_color: 'rgba(255, 255, 255, 0.5)'
   card_img_opacity: '0.8'
 
