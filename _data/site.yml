@@ -17,7 +17,7 @@ img:
    avatar: "https://s1.ax1x.com/2020/07/24/Uvvruj.jpg" # your avatar
 
 card:
-   card_shadow: 1 # card shadow (0-24), 0 is not displayed
+   card_shadow: 5 # card shadow (0-24), 0 is not displayed
    card_hoverable: false # When the hover to deepen the shadow
 
 many_authors: false
