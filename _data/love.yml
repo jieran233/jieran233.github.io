@@ -1,11 +1,11 @@
-header:
-    name: "Jieran233"
-    favicon: "https://i.loli.net/2020/07/24/iH72wNkYI1egKZ9.jpg"
-    siteurl: "http://rqgd.tk"
-    introduction: "如果真爱有颜色"
+# header:
+#     name: "Jieran233"
+#     favicon: "https://i.loli.net/2020/07/24/iH72wNkYI1egKZ9.jpg"
+#     siteurl: "http://rqgd.tk"
+#     introduction: "如果真爱有颜色"
 
-photo:
-    photo: true
-    pictures:
-        - "https://i.loli.net/2020/07/24/la6z9jtXTQsicRH.png"
-        - "https://i.loli.net/2020/07/24/fkjLET6IDaqrzBQ.png"
+# photo:
+#     photo: true
+#     pictures:
+#         - "https://i.loli.net/2020/07/24/la6z9jtXTQsicRH.png"
+#         - "https://i.loli.net/2020/07/24/fkjLET6IDaqrzBQ.png"

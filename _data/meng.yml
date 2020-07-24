@@ -6,7 +6,7 @@ title:  # Meng title
   reset_time: 1000 # If state is visible , reset default title times(ms)
 
 cursor: # Meng cursor
-  switch: true # Meng cursor switch
+  switch: false # Meng cursor switch
   auto_url: "https://i.loli.net/2020/07/24/jIR7iaPu4OrJtn5.png" # State is auto style
   pointer_url: "https://i.loli.net/2020/07/24/jqeQt1laxARfXb2.png" # State is pointer style
 
@@ -22,7 +22,7 @@ header: # Meng header color + theme-color
 
 background: # Meng background
   switch: true
-  background_img: "https://i.loli.net/2020/07/24/la6z9jtXTQsicRH.png"
+  background_img: "https://i.loli.net/2020/07/24/HMyXLkCROfxFuUt.jpg"
   transparent_header: true
   transparent_footer: false
   text_color: '#000'
@@ -63,7 +63,7 @@ animation: # animate.css, see https://github.com/daneden/animate.css
 
 head_card:
   switch: true
-  left_img: "https://i.loli.net/2020/07/24/la6z9jtXTQsicRH.png"
+  left_img: "https://i.loli.net/2020/07/24/GuqJmrTFfPnMES5.jpg"
   left_text: "『让我带您去吧，这座小镇，愿望实现的地方。』"
-  right_img: "https://i.loli.net/2020/07/24/fkjLET6IDaqrzBQ.png"
+  right_img: "https://i.loli.net/2020/07/24/T8ZUhGpnie3NMlz.png"
   offset_level: 2
