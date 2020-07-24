@@ -18,7 +18,7 @@ console: # Meng console info
   background: "#448aff" # background color
 
 header: # Meng header color + theme-color
-  switch: false
+  switch: true
 
 background: # Meng background
   switch: true
@@ -45,7 +45,7 @@ live2d: # live2d ,see https://github.com/EYHN/hexo-helper-live2d
 
 #!!!!do not use!!!!
 animation: # animate.css, see https://github.com/daneden/animate.css
-  switch: true # switch on and you can see the animation,!!!!do not use!!!!
+  switch: false # switch on and you can see the animation,!!!!do not use!!!!
 #!!!!do not use!!!!
 
 # music_player:
