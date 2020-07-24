@@ -61,9 +61,9 @@ animation: # animate.css, see https://github.com/daneden/animate.css
 #       url: 'http://www.170mv.com/kw/other.web.ri01.sycdn.kuwo.cn/resource/n2/44/7/1205252665.mp3'
 #       pic: 'http://img4.kuwo.cn/star/starheads/240/72/35/3484765923.jpg'
 
-# head_card:
-#   switch: true
-#   left_img: "https://img.moegirl.org.cn/common/3/36/Little_Busters.jpg"
-#   left_text: "最近在看：《Little Busters!》"
-#   right_img: "https://s1.ax1x.com/2020/07/24/Uvvruj.jpg"
-#   offset_level: 2
+head_card:
+  switch: true
+  left_img: "https://img.moegirl.org.cn/common/3/36/Little_Busters.jpg"
+  left_text: "最近在看：《Little Busters!》"
+  right_img: "https://s1.ax1x.com/2020/07/24/Uvvruj.jpg"
+  offset_level: 2
