@@ -1,13 +1,3 @@
-- name: GitHub存储库
-  image: https://s1.ax1x.com/2020/07/24/UvauWR.png
-  url: https://github.com/jieran233/jieran233.github.io
-  describe: 本项目在GitHub上的存储库
-
-  - name: 主题文档
-  image: https://s1.ax1x.com/2020/07/24/UvauWR.png
-  url: http://mdui.kejun.me/#/zh-cn/
-  describe: 本项目在GitHub上的存储库
-
 - name: 孑染の小窝
   image: https://i.loli.net/2020/07/24/iH72wNkYI1egKZ9.jpg
   url: http://jieran233.tk/
@@ -17,3 +7,13 @@
   image: https://s1.ax1x.com/2020/07/24/Uv6w1e.png
   url: http://jieran233.ys168.com/
   describe: 永硕E盘，主要用于孑染工具箱的下载与自动更新
+
+  - name: GitHub存储库
+  image: https://s1.ax1x.com/2020/07/24/UvauWR.png
+  url: https://github.com/jieran233/jieran233.github.io
+  describe: 本项目在GitHub上的存储库
+
+  - name: 主题文档
+  image: https://ooo.0o0.ooo/2017/05/26/5928368d409dd.png
+  url: http://mdui.kejun.me/#/zh-cn/
+  describe: 本项目使用的主题的文档
