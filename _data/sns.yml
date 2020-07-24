@@ -1,5 +1,5 @@
-- name: bilibili
-  url: https://space.bilibili.com/295984203
+- name: zhihu
+  url: https://www.zhihu.com/people/jie-ran-98-87
 
 # - name: facebook
 #   url: 
@@ -28,5 +28,5 @@
 # - name: weibo
 #   url: https://weibo.com/u/7397007518/home
 
-- name: zhihu
-  url: https://www.zhihu.com/people/jie-ran-98-87
+- name: bilibili
+  url: https://space.bilibili.com/295984203
