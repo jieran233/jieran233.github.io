@@ -45,7 +45,7 @@ live2d: # live2d ,see https://github.com/EYHN/hexo-helper-live2d
 
 #!!!!do not use!!!!
 animation: # animate.css, see https://github.com/daneden/animate.css
-  switch: false # switch on and you can see the animation,!!!!do not use!!!!
+  switch: true # switch on and you can see the animation,!!!!do not use!!!!
 #!!!!do not use!!!!
 
 # music_player:
