@@ -22,7 +22,7 @@ header: # Meng header color + theme-color
 
 background: # Meng background
   switch: true
-  background_img: "https://s1.ax1x.com/2020/07/24/UvvsDs.jpg"
+  background_img: "https://s1.ax1x.com/2020/07/24/UxedPg.jpg"
   transparent_header: true
   transparent_footer: false
   text_color: '#000'
