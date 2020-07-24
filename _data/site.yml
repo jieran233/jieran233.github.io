@@ -5,7 +5,7 @@ head:
    keywords: "jieran233 孑染 blog 博客 个人网站" #  the site keywords
 
 uiux:
-   android_chrome_color: "#eeeeee" #  the color of the Chrome address bar
+   android_chrome_color: "#8DB7E6" #  the color of the Chrome address bar
    nprogress_color: "#29d" #  the color of the top loading progress bar
    nprogress_buffer: 200 # the top loading progress bar buffers
    meng: true # meng
@@ -32,7 +32,7 @@ sns_share: # SNS Share Switch
    telegram: true
 
 comment:
-  used: "" # disqus,livere,gitment,valine
+  used: "gitment" # disqus,livere,gitment,valine
   # disqus config
   disqus_shortname: "" # Your disqus
   disqus_button: false # disqus load button
@@ -43,10 +43,10 @@ comment:
   livere_type: 'city'
   livere_data_uid: ''
   # gitment config
-  owner: ""
-  repo: ""
-  client_id: ""
-  client_secret: ""
+  owner: "jieran233"
+  repo: "jieran233.github.io"
+  client_id: "5c2d830047c81e8ab4ed"
+  client_secret: "5cf286d64005842a53c5fffc9bad9bdbcfef4014"
   #valine config
   valine_notify: false #mail notifier
   valine_verify: false #validation code
