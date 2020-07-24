@@ -18,7 +18,7 @@ console: # Meng console info
   background: "#448aff" # background color
 
 header: # Meng header color + theme-color
-  switch: true
+  switch: false
 
 background: # Meng background
   switch: true
