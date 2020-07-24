@@ -1,8 +1,8 @@
-title: "Jekyll-Theme-MDUI"
-description: "A Jekyll theme based on MDUI"
+title: "Jieran233's Blog (DEV)"
+description: "Welcome to Jieran233's Blog"
 url: 
 baseurl: ""
-author: "KeJun"
+author: "Jieran233"
 paginate: 5
 paginate_path: "/blog/page:num/"
 

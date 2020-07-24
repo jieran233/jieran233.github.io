@@ -1,32 +1,32 @@
 - name: bilibili
-  url: 
+  url: https://space.bilibili.com/295984203
 
-- name: facebook
-  url: 
+# - name: facebook
+#   url: 
 
 - name: github
-  url: https://github.com
+  url: https://github.com/jieran233
 
-- name: gplus
-  url: 
+# - name: gplus
+#   url: 
 
-- name: instagram
-  url: 
+# - name: instagram
+#   url: 
 
-- name: linkedin
-  url: 
+# - name: linkedin
+#   url: 
 
-- name: telegram
-  url: https://web.telegram.org
+# - name: telegram
+#   url: https://web.telegram.org
 
-- name: tumblr
-  url: 
+# - name: tumblr
+#   url: 
 
-- name: twitter
-  url: https://twitter.com/
+# - name: twitter
+#   url: https://twitter.com/
 
-- name: weibo
-  url: 
+# - name: weibo
+#   url: https://weibo.com/u/7397007518/home
 
 - name: zhihu
-  url: 
+  url: https://www.zhihu.com/people/jie-ran-98-87

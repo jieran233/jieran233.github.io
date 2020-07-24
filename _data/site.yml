@@ -1,20 +1,20 @@
 head:
-   favicon: "https://ooo.0o0.ooo/2017/05/27/59294212bc16e.png" #  the favicon
-   high_res_favicon: "https://ooo.0o0.ooo/2017/06/08/5939484dc618e.png" #  the favicon using high quality format
-   apple_touch_icon: "https://ooo.0o0.ooo/2017/06/08/5939484dc618e.png" # the iOS Home button icon
-   keywords: "blog jekyll mdui theme" #  the site keywords
+   favicon: "https://i.loli.net/2020/07/24/iH72wNkYI1egKZ9.jpg" #  the favicon
+   high_res_favicon: "https://i.loli.net/2020/07/24/iH72wNkYI1egKZ9.jpg" #  the favicon using high quality format
+   apple_touch_icon: "https://i.loli.net/2020/07/24/iH72wNkYI1egKZ9.jpg" # the iOS Home button icon
+   keywords: "jieran233 孑染 blog 博客 个人网站" #  the site keywords
 
 uiux:
    android_chrome_color: "#eeeeee" #  the color of the Chrome address bar
    nprogress_color: "#29d" #  the color of the top loading progress bar
    nprogress_buffer: 200 # the top loading progress bar buffers
-   meng: false # meng
+   meng: true # meng
 
 background:
    purecolor: "#eeeeee" # the background color
 
 img:
-   avatar: "https://ooo.0o0.ooo/2017/05/26/5928368d409dd.png" # your avatar
+   avatar: "https://i.loli.net/2020/07/24/iH72wNkYI1egKZ9.jpg" # your avatar
 
 card:
    card_shadow: 1 # card shadow (0-24), 0 is not displayed

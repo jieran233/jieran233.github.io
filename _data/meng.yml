@@ -6,9 +6,9 @@ title:  # Meng title
   reset_time: 1000 # If state is visible , reset default title times(ms)
 
 cursor: # Meng cursor
-  switch: false # Meng cursor switch
-  auto_url: "https://ooo.0o0.ooo/2017/06/12/593ea1901c930.png" # State is auto style
-  pointer_url: "https://ooo.0o0.ooo/2017/06/12/593ea3612fd77.png" # State is pointer style
+  switch: true # Meng cursor switch
+  auto_url: "https://i.loli.net/2020/07/24/jIR7iaPu4OrJtn5.png" # State is auto style
+  pointer_url: "https://i.loli.net/2020/07/24/jqeQt1laxARfXb2.png" # State is pointer style
 
 console: # Meng console info
   switch: true # Meng console info switch
@@ -22,7 +22,7 @@ header: # Meng header color + theme-color
 
 background: # Meng background
   switch: true
-  background_img: "https://ooo.0o0.ooo/2017/06/14/5940a9b8e4c21.jpg"
+  background_img: "https://i.loli.net/2020/07/24/la6z9jtXTQsicRH.png"
   transparent_header: true
   transparent_footer: false
   text_color: '#000'
@@ -33,8 +33,8 @@ card: # Meng card
   card_img_opacity: '0.8'
 
 live2d: # live2d ,see https://github.com/EYHN/hexo-helper-live2d
-  switch: false
-  model: "/assets/live2d/koharu/koharu.model.json" # model.json path
+  switch: true
+  model: "https://cdn.jsdelivr.net/gh/xiaou520/Live2d-model@0.0.1/Hiyori//Hiyori.model3.json" # model.json path
   drag: true # is drag ?
   in_mobile: false
   width: 130 # canvas width
@@ -48,22 +48,22 @@ animation: # animate.css, see https://github.com/daneden/animate.css
   switch: false # switch on and you can see the animation,!!!!do not use!!!!
 #!!!!do not use!!!!
 
-music_player:
-  player: "aplayer" #cplayer or aplayer
-  button_color: "#1abc9c"
-  music:
-    - title: 'Faded'
-      author: 'Alan Walker'
-      url: 'http://www.170mv.com/kw/other.web.rh01.sycdn.kuwo.cn/resource/n2/14/71/3899067167.mp3'
-      pic: 'http://p4.music.126.net/8dzD62VK8jLDbhEqkmpIAg==/18277181788626198.jpg?param=130y130'
-    - title: 'Unity'
-      author: 'TheFatRat'
-      url: 'http://www.170mv.com/kw/other.web.ri01.sycdn.kuwo.cn/resource/n2/44/7/1205252665.mp3'
-      pic: 'http://img4.kuwo.cn/star/starheads/240/72/35/3484765923.jpg'
+# music_player:
+#   player: "aplayer" #cplayer or aplayer
+#   button_color: "#1abc9c"
+#   music:
+#     - title: 'Faded'
+#       author: 'Alan Walker'
+#       url: 'http://www.170mv.com/kw/other.web.rh01.sycdn.kuwo.cn/resource/n2/14/71/3899067167.mp3'
+#       pic: 'http://p4.music.126.net/8dzD62VK8jLDbhEqkmpIAg==/18277181788626198.jpg?param=130y130'
+#     - title: 'Unity'
+#       author: 'TheFatRat'
+#       url: 'http://www.170mv.com/kw/other.web.ri01.sycdn.kuwo.cn/resource/n2/44/7/1205252665.mp3'
+#       pic: 'http://img4.kuwo.cn/star/starheads/240/72/35/3484765923.jpg'
 
 head_card:
   switch: true
-  left_img: "https://ooo.0o0.ooo/2017/06/19/5947b272d418b.jpg"
-  left_text: "『 · 如果真爱有颜色 』"
-  right_img: "https://ooo.0o0.ooo/2017/06/08/5939484dc618e.png"
+  left_img: "https://i.loli.net/2020/07/24/la6z9jtXTQsicRH.png"
+  left_text: "『让我带您去吧，这座小镇，愿望实现的地方。』"
+  right_img: "https://i.loli.net/2020/07/24/fkjLET6IDaqrzBQ.png"
   offset_level: 2
