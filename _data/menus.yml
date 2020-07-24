@@ -17,5 +17,8 @@
 - name: EDITOR
   url: /editor/
   icon: "&#xe150;"
+- name: ABOUT
+  url: /about/
+  icon: "&#xe53b;"
 - name: navSearch
   switch: true
