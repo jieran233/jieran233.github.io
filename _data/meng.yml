@@ -22,7 +22,7 @@ header: # Meng header color + theme-color
 
 background: # Meng background
   switch: true
-  background_img: "https://i.loli.net/2020/07/24/HMyXLkCROfxFuUt.jpg"
+  background_img: "https://s1.ax1x.com/2020/07/24/UvvsDs.jpg"
   transparent_header: true
   transparent_footer: false
   text_color: '#000'
@@ -65,5 +65,5 @@ head_card:
   switch: true
   left_img: "https://s1.ax1x.com/2020/07/24/Ujq2n0.jpg"
   left_text: "『让我带您去吧，这座小镇，愿望实现的地方。』"
-  right_img: "https://i.loli.net/2020/07/24/iH72wNkYI1egKZ9.jpg"
+  right_img: "https://s1.ax1x.com/2020/07/24/Uvvruj.jpg"
   offset_level: 2

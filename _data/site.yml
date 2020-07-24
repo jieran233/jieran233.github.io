@@ -1,7 +1,7 @@
 head:
-   favicon: "https://i.loli.net/2020/07/24/iH72wNkYI1egKZ9.jpg" #  the favicon
-   high_res_favicon: "https://i.loli.net/2020/07/24/iH72wNkYI1egKZ9.jpg" #  the favicon using high quality format
-   apple_touch_icon: "https://i.loli.net/2020/07/24/iH72wNkYI1egKZ9.jpg" # the iOS Home button icon
+   favicon: "https://s1.ax1x.com/2020/07/24/Uvvruj.jpg" #  the favicon
+   high_res_favicon: "https://s1.ax1x.com/2020/07/24/Uvvruj.jpg" #  the favicon using high quality format
+   apple_touch_icon: "https://s1.ax1x.com/2020/07/24/Uvvruj.jpg" # the iOS Home button icon
    keywords: "jieran233 孑染 blog 博客 个人网站" #  the site keywords
 
 uiux:
@@ -14,7 +14,7 @@ background:
    purecolor: "#eeeeee" # the background color
 
 img:
-   avatar: "https://i.loli.net/2020/07/24/iH72wNkYI1egKZ9.jpg" # your avatar
+   avatar: "https://s1.ax1x.com/2020/07/24/Uvvruj.jpg" # your avatar
 
 card:
    card_shadow: 1 # card shadow (0-24), 0 is not displayed
