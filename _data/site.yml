@@ -46,7 +46,7 @@ comment:
   owner: "jieran233"
   repo: "Jieran233-s-Blog-Comment-System"
   client_id: "23ab70c87ad480be217a"
-  client_secret: "ee54aa942415b491a6f40c5caadd802b9ba56dd2"
+  client_secret: "ce5fa6e7272b70b6cf0f24e60776e7479cdc9d67"
   #valine config
   valine_notify: false #mail notifier
   valine_verify: false #validation code
