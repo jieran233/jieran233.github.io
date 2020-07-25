@@ -44,7 +44,7 @@ comment:
   livere_data_uid: ''
   # gitment config
   owner: "jieran233"
-  repo: "Jieran233-s-Blog-Comment-System"
+  repo: "jieran233/jieran233.github.io"
   client_id: "23ab70c87ad480be217a"
   client_secret: "ce5fa6e7272b70b6cf0f24e60776e7479cdc9d67"
   #valine config
