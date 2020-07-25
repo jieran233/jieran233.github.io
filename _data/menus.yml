@@ -3,22 +3,22 @@
   icon: home
 - name: CATEGORY
   url: /category/
-  icon: "&#xe53b;"
+  # icon: "&#xe53b;"
 - name: TAGS
   url: /tags/
-  icon: "&#xe893;"
+  # icon: "&#xe893;"
 # - name: LOVER
 #   url: /love/
 #   icon: "&#xe87d;"
 #   color: "red"
 - name: LINKS
   url: /links/
-  icon: "&#xe8a3;"
+  # icon: "&#xe8a3;
 - name: EDITOR
   url: /editor/
-  icon: "&#xe150;"
+  # icon: "&#xe150;"
 - name: ABOUT
   url: /hello/2020/07/24/about-me.html
-  icon: "&#xe53b;"
+  # icon: "&#xe53b;"
 - name: navSearch
   switch: true
