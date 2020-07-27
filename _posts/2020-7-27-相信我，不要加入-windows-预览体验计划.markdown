@@ -1,0 +1,13 @@
+---
+layout: post
+title: 相信我，不要加入 Windows 预览体验计划
+date: 2020-07-27 21:14:52 +0800
+categories: 日常
+tags: Windows
+img: https://s1.ax1x.com/2020/07/27/aF66yt.md.jpg
+---
+> ~~蓝~~绿瓶钙，好喝的钙<img src="http://static.coolapk.com/emoticons/v9/coolapk_emotion_64_shounuehuaji.png" style="zoom:25%;" />
+
+最近加入了Windows预览体验计划，因为看了Build20161的动态感知磁贴，就上了Dev通道20161的车，结果呢......当天就反馈了好几个bug<img src="http://static.coolapk.com/emoticons/v9/coolapk_emotion_64_shounuehuaji.png" style="zoom:25%;" />
+
+![Build20161动态感知磁贴。图源：蓝点网](https://s1.ax1x.com/2020/07/27/aFchB6.png)

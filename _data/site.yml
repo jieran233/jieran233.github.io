@@ -32,7 +32,7 @@ sns_share: # SNS Share Switch
    telegram: true
 
 comment:
-  used: "gitment" # disqus,livere,gitment,valine
+  used: "valine" # disqus,livere,gitment,valine
   # disqus config
   disqus_shortname: "" # Your disqus
   disqus_button: false # disqus load button
@@ -43,15 +43,15 @@ comment:
   livere_type: 'city'
   livere_data_uid: ''
   # gitment config
-  owner: "jieran233"
-  repo: "jieran233.github.io"
-  client_id: "23ab70c87ad480be217a"
-  client_secret: "ce5fa6e7272b70b6cf0f24e60776e7479cdc9d67"
+  owner: ""
+  repo: ""
+  client_id: ""
+  client_secret: ""
   #valine config
   valine_notify: false #mail notifier
   valine_verify: false #validation code
-  valine_app_id: ''
-  valine_app_key: ''
+  valine_app_id: 'l7WvhFz1eECqJeXmoITBCaec-gzGzoHsz'
+  valine_app_key: 'SWBCir1C4OY9J9jw5Aa93F5g'
   valine_placeholder: "ヾﾉ≧∀≦)o来啊，快活啊!"
 
 prism:
