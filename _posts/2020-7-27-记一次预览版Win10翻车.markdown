@@ -1,0 +1,79 @@
+---
+layout: post
+title: 记一次预览版Win10翻车
+date: 2020-07-27 21:14:52 +0800
+categories: 日常
+tags: Windows
+img: https://s1.ax1x.com/2020/07/27/aF66yt.md.jpg
+---
+> ## ~~蓝~~绿瓶钙，好喝的钙<img src="https://s1.ax1x.com/2020/07/28/aAWDqs.png" style="zoom:25%;" />
+
+最近加入了Windows预览体验计划，因为看了Build20161的动态感知磁贴感觉很棒，就上了Dev通道20161的车，结果呢......当天就反馈了好几个bug<img src="https://s1.ax1x.com/2020/07/28/aA6TOI.png" style="zoom:25%;" />
+
+![](https://s1.ax1x.com/2020/07/27/aFchB6.png)
+
+（Build20161动态感知磁贴 图源：蓝点网）
+
+看到这张图有没有心动了？放心，看完本文你绝对不会想更新的<img src="https://s1.ax1x.com/2020/07/28/aA6TOI.png" style="zoom:25%;" />
+
+> ## 从关机慢到无法关机
+
+从某一天开始，笔记本莫名地关机很慢，很久都关不上，一开始也没怎么搭理，直到有一天直接关不上机....... ~~微软：叫你每天这么晚睡觉等着猝死吧你~~ 然后捣鼓了一下，看了下系统事件，关掉了快速启动，再进WinRE，再回来重开了快速启动，啥事都没有YEAH<img src="https://s1.ax1x.com/2020/07/28/aA6TOI.png" style="zoom:25%;" />
+
+......后来的几天都是这样解决的，有一天实在忍不了了，就去 Microsoft Community 发贴求助微软工程师了，上传了一堆日志文件，结果微软工程师让我重置系统，而且是清除数据的那种，我......
+
+<img src="https://s1.ax1x.com/2020/07/27/aFR96s.md.png" style="zoom: 67%;" />
+
+当然是不想重置的，超麻烦的说，最近费了很大劲才部署的WSL+桌面和Jekyll本地环境<img src="https://s1.ax1x.com/2020/07/28/aAWDqs.png" style="zoom:25%;" />
+
+啥？教程？在做了在做了（新建markdown文档.md）<img src="https://s1.ax1x.com/2020/07/28/aA6TOI.png" style="zoom:25%;" />
+
+昨天晚上感觉关机也挺慢的，难道是硬件问题？~~（微软：没错这锅我不背）~~
+
+> ## 重置循环
+
+<img src="https://s1.ax1x.com/2020/07/28/aARau9.md.jpg" style="zoom: 50%;" />
+
+好吧我重置了，是不是微软给我施法了，为什么那天我电脑那么卡，逼着我重置<img src="https://s1.ax1x.com/2020/07/28/aA6TOI.png" style="zoom:25%;" />
+
+重置.......然后呢，进入到了OOBE环节，微软还好心提示一句“为什么我的电脑重启了？存在某个问题。”，接着微软小娜就念诗了，然后......就重启回到了OOBE第一步.......（悲痛欲绝.jpg）
+
+结果关机都关不上了，然后没办法，只能强制关机，强制关了之后呢......
+
+我进WinRE重置了第二遍，第三遍，然后......
+
+<img src="https://s1.ax1x.com/2020/07/28/aARDN6.md.jpg" style="zoom:50%;" />
+
+（无论如何，薯条标永远YES<img src="https://s1.ax1x.com/2020/07/28/aAWDqs.png" style="zoom:25%;" />）
+
+......就再也启动不了了，就连WinRE也坏掉了（悲痛欲绝x3）
+
+然而沙雕的我甚至还按Shift+F10打开cmd输了一个 echo hello,world<img src="https://s1.ax1x.com/2020/07/28/aA6TOI.png" style="zoom:25%;" />
+
+
+
+> ## OEM (原始设备制造商) 大法保平安
+
+结果呢，微软工程师让我用U盘装系统，想了一下不行，因为：
+
+- 不会附带OEM的软件、驱动
+- Recovery分区会被破坏（无法进入WinRE）
+- 系统可能无法正版激活（尤其是装错版本）
+
+去OEM那边找了半天，于是找到了OEM的恢复软件，HP Recovery Tool<img src="https://s1.ax1x.com/2020/07/28/aAWDqs.png" style="zoom:25%;" />
+
+用这个下载恢复映像也下了一晚上，下几次失败几次，最后实在不行拿了网线，连以太网，终于下载完了。然后拿恢复映像去恢复，
+
+<img src="https://s1.ax1x.com/2020/07/28/aAhHgO.md.jpg" alt="aAhHgO.md.jpg" style="zoom:25%;" /><img src="https://s1.ax1x.com/2020/07/28/aAh78K.md.jpg" alt="aAh78K.md.jpg" style="zoom:25%;" /><img src="https://s1.ax1x.com/2020/07/28/aAhODH.md.jpg" alt="aAhODH.md.jpg" style="zoom:25%;" /><img src="https://s1.ax1x.com/2020/07/28/aAhbvD.md.jpg" alt="aAhbvD.md.jpg" style="zoom:25%;" />
+
+<img src="https://s1.ax1x.com/2020/07/28/aAIKuF.md.jpg" style="zoom: 50%;" />
+
+终于成功了，然后就是重新开始安装软件，部署环境，没想到一晚上就部署好了Git，Java，Python，WSL的环境<img src="https://s1.ax1x.com/2020/07/28/aA6TOI.png" style="zoom:25%;" />~~（微软：为什么你这么熟练啊）~~
+
+
+
+> ##  最后来一张恢复完的桌面截图
+
+（酷友分享的壁纸，感觉很棒<img src="https://s1.ax1x.com/2020/07/28/aAWDqs.png" style="zoom:25%;" />  Rainmeter有些占CPU，就暂时没整）
+
+![](https://s1.ax1x.com/2020/07/28/aAIANn.png)
