@@ -63,7 +63,7 @@ animation: # animate.css, see https://github.com/daneden/animate.css
 
 head_card:
   switch: true
-  left_img: "http://i0.hdslb.com/bfs/bangumi/image/9477f8b8f2e9fefa328f8f9e3f6f6cc1e00d5aa9.png"
+  left_img: "https://s1.ax1x.com/2020/07/28/aAyVET.md.png"
   left_text: "最近想看：《宇崎学妹想要玩!》"
   right_img: "https://s1.ax1x.com/2020/07/24/Uvvruj.jpg"
   offset_level: 2
