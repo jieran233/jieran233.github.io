@@ -6,7 +6,7 @@ categories: 日常
 tags: Windows
 img: https://s1.ax1x.com/2020/07/27/aF66yt.md.jpg
 ---
-> ## ~~蓝~~绿瓶钙，好喝的钙<img src="https://s1.ax1x.com/2020/07/28/aAWDqs.png" style="zoom:25%;" />
+> ## 绿瓶钙，好喝的钙<img src="https://s1.ax1x.com/2020/07/28/aAWDqs.png" style="zoom:25%;" />
 
 最近加入了Windows预览体验计划，因为看了Build20161的动态感知磁贴感觉很棒，就上了Dev通道20161的车，结果呢......当天就反馈了好几个bug<img src="https://s1.ax1x.com/2020/07/28/aA6TOI.png" style="zoom:25%;" />
 
