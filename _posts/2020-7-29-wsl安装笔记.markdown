@@ -123,11 +123,217 @@ sudo apt autoremove
 另外说明一下，如果命令执行期间有报错或卡住的情况，直接`ctrl+C`重新执行即可，它会自动跳过之前已完成的部分（get 序号会从1重新开始计数，但不会重新get已完成的包）。
 另外如果遇到`bluemen`的报错，可以忽略不管。
 
+**后面没时间写了，先直接复制粘贴吧，有空再好好改<img src="https://s1.ax1x.com/2020/07/28/aA6TOI.png" style="zoom:25%;" /><img src="https://s1.ax1x.com/2020/07/28/aAWDqs.png" style="zoom:25%;" />**
 
+<hr>
+
+### 安装桌面环境xubuntu
+
+```bash
+sudo apt install xubuntu-desktop
+```
+
+说明一下，本人最开始执着于`gnome`桌面，在各种google无果后选择了搜错过程中出现次数最多的`xfce4`，同时了解到`xubuntu`是`xfce4`的一个扩展，于是采用`xubuntu`桌面环境，在使用了几天后发现还挺好用，它里面内置了若干`panel`可供替换（这个后面再说）。如果弹出选择gdm3或lightdm，选择gdm3
+
+### 安装远程桌面服务xrdp
+
+```bash
+sudo apt install xrdp
+```
+
+这个就是直接跟windows交互的哥们了，有关其原理的介绍可以参考[这篇文章](https://blog.csdn.net/zhangxinrun/article/details/7332049)，不过不看也没关系，不影响使用。
+另外有的教程会让你安装`xorg`与`xfce4`，这两个的安装其实在上一步`sudo apt install xubuntu-desktop`的时候已经完成了。
+
+### 配置xrdp端口
+
+```bash
+sudo sed -i 's/port=3389/port=3390/g' /etc/xrdp/xrdp.ini
+```
+
+这里面3389是默认配置，这里将其改为3390是避免和windows的端口冲突。我们折腾的是子系统不是虚拟机，两边的端口号是通的。比如在wsl中开一个8080端口的WebServer，在windows中开浏览器是可以直接访问的。
+
+### 配置xsession
+
+```bash
+sudo echo xfce4-session >~/.xsession
+```
+
+这一步其实是在告诉系统，开启桌面环境的时候开启什么桌面环境。为什么是`xfce4`呢，上面也说了`xubuntu`本质就是`xfce4`加上一些插件与软件。
+
+### 重启一下电脑
+
+不重启的时候会报错
+
+```
+connecting to sesman ip 127.0.0.1 port 3350 
+sesman connect ok
+sending login info to session manager, please wait...
+login successful for display 25
+started connecting
+connection problem, giving up
+some problerm
+```
+
+### 启动xrdp
+
+```bash
+sudo service xrdp restart
+```
+
+这里用`start`也行`restart`也行，既然都可以，当然后者用起来更方便。
+启动成功后会看到如下提示
+
+```
+ * Starting Remote Desktop Protocol server 
+[20190514-19:06:59] [DEBUG] Testing if xrdp can listen on 0.0.0.0 port 3390.
+[20190514-19:06:59] [DEBUG] Closed socket 6 (AF_INET6 :: port 3390)[ OK ]
+```
+
+### 远程连接
+
+在windows开始菜单中搜`远程桌面`打开后在`计算机`后面输入`localhost:3390`点击连接。首次连接可能需要较长时间。
+用户名密码可以先写，也可以不写，网上有教程还勾选了保存凭据的，这个看个人习惯吧，我用软件从来不勾选记住密码的。
+
+### 汉化
+
+其实Linux汉化显得很low，但咱这英语水平在处理一些感叹号弹窗的时候看不懂提示不敢瞎点yes还是no，所以汉化步骤放在这，看官依据个人口味吧。
+
+```bash
+sudo dpkg-reconfigure locales
+```
+
+然后一直按键盘上的`↓`找到`zh_CN UTF-8`，然后按空格勾选，再`tab`切换到`ok`上回车，接下来的界面选`zh`再回车。
+这一步完成后可能会导致键盘不可用，不用激动，点击桌面左上角图标注销后重进就好了。
+首次进入中文界面会提示是否重命名那几个文件夹，建议保持英文状态，因为有些路径是写进配置文件了的，重命名会带来不必要的麻烦。
+
+## 常见问题
+
+### **1、远程桌面闪退，shell可以用的问题：**
+
+#### （1）需要在该用户目录创建一个.xsession：
+
+```bash
+touch .xsession
+```
+
+#### （2）里面写“xfce4-session”一句话就行：
+
+```bash
+echo xfce4-session >~/.xsession
+```
+
+#### （3）然后进入到用户目录下
+
+```bash
+sudo chown username:username .xsession
+```
+
+### **2、windows桌面连接后远程使用Terminal时，Tab键无法自动补全。**
+
+默认情况下，是使用ctrl+i的。 Tab键被占用作为其他的快捷键。想要修改，在windows manager（窗口管理器）中，keyboard 里将用到 Super + Tab的快捷键clear掉即可。
+
+### **3、远程桌面进去之后没有菜单栏：**
+
+右键面板->面板首选项->backup and restore -> apply configuration图标
+
+### **4、运行一段时间后，出现xrdp_mm_process_login_response: login failed**
+
+问题原因：远程桌面没有正确关闭，虽然在windows 系统关闭远程桌面连接，但是在里linux上的进程还在运行，导致连接数量达到上限，出现问题。
+解决：通过设置sesman.in文件内的参数解决：
+
+```bash
+cat /etc/xrdp/sesman.ini
+vi /etc/xrdp/sesman.ini
+```
+
+可以修改会话设置 ：将最大会话限制该大 MaxSessions=50; 将KillDisconnected=1；则每次断开连接时，linux都会关闭会话进程。 然后重启/etc/init.d/xrdp restart 就可解决问题
+
+### **5、错误如下：**
+
+```bash
+connecting to sesman ip 127.0.0.1 port 3350
+sesman connect ok
+sending login info to session manager, please wait
+xrdp_mm_process_login_response: login successful for display
+started connecting
+connecting to 127.0.0.1:5921
+tcp connected
+security level is 2 
+password failed
+error - problem connecting
+```
+
+#### （1）第一种情况：
+
+```bash
+sudo vim /var/log/xrdp-sesman.log
+```
+
+xrdp-sesman.log下错误为：
+
+```bash
+[INFO ] starting Xvnc session...
+[ERROR] X server for display 10 startup timeout[INFO ] starting xrdp-sessvc - xpid=2924 - wmpid=2923
+[ERROR] X server for display 10 startup timeout
+[ERROR] another Xserver is already active on display 10
+[DEBUG] aborting connection... 
+```
+
+如果你的log也有类似 X server for display 10 startup timeout和another Xserver is already active on display 10。问题根源在于tightvnc，出现问题的版本跟X字体有冲突，导致连接Xserver出错。
+解决办法：
+
+```bash
+apt-get purge tightvnc xrdp
+apt-get install tightvncserver xrdp
+```
+
+最后，启动xrdp服务
+
+```bash
+sudo /etc/init.d/xrdp restart
+```
+
+此时会启用相应端口，配置方面默认即可。通过命令：
+
+```bash
+netstat  -tnl
+```
+
+查看 3350 3389 5910 这三个端口处于LISTEN，一般就没问题了。
+
+#### （2）第二种情况：
+
+如果日志里跟第一种情况不同，可以考虑如下方式解决：
+
+```bash
+sudo vim /etc/xrdp/sesman.ini
+```
+
+添加如下两行：
+
+```bash
+param8=-SecurityTypes
+param9=None
+```
+
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200519221627710.png)
+修改完重启xrdp服务:
+
+```bash
+sudo /etc/init.d/xrdp restart
+```
+
+若上述问题还是无法解决，可卸载xrdp服务，进行重装，并如上进行同样的操作，修改sesman.ini文件。卸载xrdp的命令为：
+
+```bash
+sudo apt-get purge xrdp
+sudo apt-get purge tightvncserver
+```
 
 ## 参考资料
 
 https://www.runoob.com/linux/linux-intro.html
 
-https://blog.csdn.net/xmh19936688/article/details/90212960
+**https://blog.csdn.net/xmh19936688/article/details/90212960**
 
+https://blog.csdn.net/weixin_41921520/article/details/106224404
