@@ -1,8 +1,8 @@
 ---
 layout: post
-title: WSL安装教程
+title: WSL安装笔记
 date: 2020-07-29 10:44:57 +0800
-categories: technology
+categories: Technology
 tags: Linux
 img: https://s1.ax1x.com/2020/07/29/aZAHtH.png
 ---

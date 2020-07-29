@@ -2,7 +2,7 @@
 layout: post
 title: 记一次预览版Win10翻车
 date: 2020-07-27 21:14:52 +0800
-categories: daily
+categories: Daily
 tags: Windows
 img: https://s1.ax1x.com/2020/07/27/aF66yt.md.jpg
 ---
