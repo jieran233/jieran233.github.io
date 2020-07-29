@@ -39,25 +39,25 @@ img: https://s1.ax1x.com/2020/07/29/aZAHtH.png
 
 控制面板→程序和功能→启用或关闭Windows功能（也有的Win10版本这个叫打开或关闭Windows功能）
 
-或者直接Win+S输入“q”，反正我这里是能匹配到启用或关闭Windows功能<img src="https://s1.ax1x.com/2020/07/28/aA6TOI.png" style="zoom:25%;" />
+或者直接`Win+S`输入`q`，反正我这里是能匹配到启用或关闭Windows功能<img src="https://s1.ax1x.com/2020/07/28/aA6TOI.png" style="zoom:25%;" />
 
 <img src="https://s1.ax1x.com/2020/07/29/aZZQ61.png" style="zoom:67%;" />
 
-找到“适用于 Linux 的 Windows 子系统”，勾选它，点击确定。
+找到“适用于 Linux 的 Windows 子系统”，勾选它，点击确定
 
-然后Windows就会开始添加功能了，添加完毕后可能需要重启。
+然后Windows就会开始添加功能了，添加完毕后可能需要重启
 
 ### 安装 Ubuntu
 
-完成之后，去 Microsoft Store 搜索 Ubuntu ，下载。
+完成之后，去 Microsoft Store 搜索 Ubuntu ，下载
 
 <img src="https://s1.ax1x.com/2020/07/29/aZAHtH.png" style="zoom:67%;" />
 
-安装完成之后先别急着启动，先进行下一步。
+安装完成之后先别急着启动，先进行下一步
 
 ### 更新 WSL 2
 
-打开链接下载更新WSL2： [更新 WSL 2 Linux 内核 | Microsoft Docs](https://docs.microsoft.com/zh-cn/windows/wsl/wsl2-kernel)
+打开链接下载更新WSL2： [更新 WSL 2 Linux 内核](https://docs.microsoft.com/zh-cn/windows/wsl/wsl2-kernel)
 
 ### 启动 Ubuntu
 
