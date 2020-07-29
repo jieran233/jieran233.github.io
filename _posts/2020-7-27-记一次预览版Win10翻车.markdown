@@ -2,11 +2,11 @@
 layout: post
 title: 记一次预览版Win10翻车
 date: 2020-07-27 21:14:52 +0800
-categories: 日常
+categories: daily
 tags: Windows
 img: https://s1.ax1x.com/2020/07/27/aF66yt.md.jpg
 ---
-> ## 绿瓶钙，好喝的钙<img src="https://s1.ax1x.com/2020/07/28/aAWDqs.png" style="zoom:25%;" />
+> ## 绿屏警告<img src="https://s1.ax1x.com/2020/07/28/aAWDqs.png" style="zoom:25%;" />
 
 最近加入了Windows预览体验计划，因为看了Build20161的动态感知磁贴感觉很棒，就上了Dev通道20161的车，结果呢......当天就反馈了好几个bug<img src="https://s1.ax1x.com/2020/07/28/aA6TOI.png" style="zoom:25%;" />
 
@@ -20,7 +20,11 @@ img: https://s1.ax1x.com/2020/07/27/aF66yt.md.jpg
 
 从某一天开始，笔记本莫名地关机很慢，很久都关不上，一开始也没怎么搭理，直到有一天直接关不上机....... ~~微软：叫你每天这么晚睡觉等着猝死吧你~~ 然后捣鼓了一下，看了下系统事件，关掉了快速启动，再进WinRE，再回来重开了快速启动，啥事都没有YEAH<img src="https://s1.ax1x.com/2020/07/28/aA6TOI.png" style="zoom:25%;" />
 
-......后来的几天都是这样解决的，有一天实在忍不了了，就去 Microsoft Community 发贴求助微软工程师了，上传了一堆日志文件，结果微软工程师让我重置系统，而且是清除数据的那种，我......
+......后来的几天都是这样解决的，有一天实在忍不了了，就去 Microsoft Community 发贴求助微软工程师了，上传了一堆日志文件，结果微软工程师让我......
+
+![](https://s1.ax1x.com/2020/07/29/aZaRCd.png)
+
+不好意思，放错图了<img src="https://s1.ax1x.com/2020/07/28/aA6TOI.png" style="zoom:25%;" />是重置系统，而且是清除数据的那种，我......
 
 <img src="https://s1.ax1x.com/2020/07/27/aFR96s.md.png" style="zoom: 67%;" />
 
@@ -42,6 +46,10 @@ img: https://s1.ax1x.com/2020/07/27/aF66yt.md.jpg
 
 我进WinRE重置了第二遍，第三遍，然后......
 
+![](https://s1.ax1x.com/2020/07/29/aZdJMt.png)、
+
+放错图了，不好意思<img src="https://s1.ax1x.com/2020/07/28/aA6TOI.png" style="zoom:25%;" />
+
 <img src="https://s1.ax1x.com/2020/07/28/aARDN6.md.jpg" style="zoom:50%;" />
 
 （无论如何，薯条标永远YES<img src="https://s1.ax1x.com/2020/07/28/aAWDqs.png" style="zoom:25%;" />）
@@ -52,7 +60,7 @@ img: https://s1.ax1x.com/2020/07/27/aF66yt.md.jpg
 
 
 
-> ## OEM (原始设备制造商) 大法保平安
+> ## OEM大法保平安
 
 结果呢，微软工程师让我用U盘装系统，想了一下不行，因为：
 

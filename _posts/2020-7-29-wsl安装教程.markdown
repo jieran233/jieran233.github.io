@@ -1,0 +1,133 @@
+---
+layout: post
+title: WSL安装教程
+date: 2020-07-29 10:44:57 +0800
+categories: technology
+tags: Linux
+img: https://s1.ax1x.com/2020/07/29/aZAHtH.png
+---
+
+## 介绍
+
+### Why Linux?
+
+目前国内 Linux 更多的是应用于服务器上，而桌面操作系统更多使用的是 Windows。主要区别如下
+
+| 比较     | Windows                                                      | Linux                                                        |
+| :------- | :----------------------------------------------------------- | :----------------------------------------------------------- |
+| 界面     | 界面统一，外壳程序固定所有 Windows 程序菜单几乎一致，快捷键也几乎相同 | 图形界面风格依发布版不同而不同，可能互不兼容。GNU/Linux 的终端机是从 UNIX 传承下来，基本命令和操作方法也几乎一致。 |
+| 驱动程序 | 驱动程序丰富，版本更新频繁。默认安装程序里面一般包含有该版本发布时流行的硬件驱动程序，之后所出的新硬件驱动依赖于硬件厂商提供。对于一些老硬件，如果没有了原配的驱动有时很难支持。另外，有时硬件厂商未提供所需版本的 Windows 下的驱动，也会比较头痛。 | 由志愿者开发，由 Linux 核心开发小组发布，很多硬件厂商基于版权考虑并未提供驱动程序，尽管多数无需手动安装，但是涉及安装则相对复杂，使得新用户面对驱动程序问题（是否存在和安装方法）会一筹莫展。但是在开源开发模式下，许多老硬件尽管在Windows下很难支持的也容易找到驱动。HP、Intel、AMD 等硬件厂商逐步不同程度支持开源驱动，问题正在得到缓解。 |
+| 使用     | 使用比较简单，容易入门。图形化界面对没有计算机背景知识的用户使用十分有利。 | 图形界面使用简单，容易入门。文字界面，需要学习才能掌握。     |
+| 学习     | 系统构造复杂、变化频繁，且知识、技能淘汰快，深入学习困难。   | 系统构造简单、稳定，且知识、技能传承性好，深入学习相对容易。 |
+| 软件     | 每一种特定功能可能都需要商业软件的支持，需要购买相应的授权。 | 大部分软件都可以自由获取，同样功能的软件选择较少。           |
+
+而在开发中，无论是开发环境的部署，还是安装软件包，Linux都要比Windows方便得多<img src="https://s1.ax1x.com/2020/07/28/aAWDqs.png" style="zoom:25%;" />
+
+### Why WSL?
+
+在Windows电脑上安装Linux，无非就这几种方案：
+
+- 双系统
+- 虚拟机
+- 子系统（Windows Subsystem for Linux）
+
+在双系统、虚拟机、子系统三者中，首先排除了双系统，首先不能随时切换，而且在新的系统中重现当前工作环境（不只是开发环境）代价太大。而虚拟机需要额外安装软件且有额外资源开销，于是尝试在子系统中折腾一把。
+
+## 启用&安装
+
+### 启用 WSL
+
+控制面板→程序和功能→启用或关闭Windows功能（也有的Win10版本这个叫打开或关闭Windows功能）
+
+或者直接Win+S输入“q”，反正我这里是能匹配到启用或关闭Windows功能<img src="https://s1.ax1x.com/2020/07/28/aA6TOI.png" style="zoom:25%;" />
+
+<img src="https://s1.ax1x.com/2020/07/29/aZZQ61.png" style="zoom:67%;" />
+
+找到“适用于 Linux 的 Windows 子系统”，勾选它，点击确定。
+
+然后Windows就会开始添加功能了，添加完毕后可能需要重启。
+
+### 安装 Ubuntu
+
+完成之后，去 Microsoft Store 搜索 Ubuntu ，下载。
+
+<img src="https://s1.ax1x.com/2020/07/29/aZAHtH.png" style="zoom:67%;" />
+
+安装完成之后先别急着启动，先进行下一步。
+
+### 更新 WSL 2
+
+打开链接下载更新WSL2： [更新 WSL 2 Linux 内核 | Microsoft Docs](https://docs.microsoft.com/zh-cn/windows/wsl/wsl2-kernel)
+
+### 启动 Ubuntu
+
+做完上面的操作，就可以启动 Ubuntu 啦<img src="https://s1.ax1x.com/2020/07/28/aAWDqs.png" style="zoom:25%;" />
+
+![](https://s1.ax1x.com/2020/07/29/aZK0dx.png)
+
+如图，待安装完毕后，即可输入用户名和密码，开始使用Ubuntu啦<img src="https://s1.ax1x.com/2020/07/28/aAWDqs.png" style="zoom:25%;" />
+
+（顺便一说，在 cmd 中输入 bash 也能启动WSL）
+
+## 部署
+
+### Ubuntu换源
+
+这一步不是必须的。前提是你的网络足够好，或者你有翻山越岭的本领<img src="https://s1.ax1x.com/2020/07/28/aA6TOI.png" style="zoom:25%;" />
+首先，切换到超级用户。执行`sudo su`并输入你的密码。
+
+然后，既然要修改系统文件，那么肯定要先备份，复制一下我们需要的修改的`sources.list`。
+
+```bash
+cp /etc/apt/sources.list /etc/apt/sources.list.bak
+```
+
+然后执行`vi /etc/apt/sources.list`，这里说一下vi编辑器的用法，因为我整这个整了半天都没搞定<img src="https://s1.ax1x.com/2020/07/28/aA6TOI.png" style="zoom:25%;" />
+
+<img src="https://s1.ax1x.com/2020/07/29/aZ35RK.png" style="zoom:67%;" />
+
+执行完了你看到的大概是这样一个样子，这就是vi编辑器，想了解更多可以去自行学习<img src="https://s1.ax1x.com/2020/07/28/aAWDqs.png" style="zoom:25%;" />
+
+按**`i`**键进入编辑模式
+
+在文件最开始添加如下信息（定位到文件最开始，换行，**`🖱右键`**粘贴）：
+
+```
+deb http://mirrors.aliyun.com/ubuntu/ bionic main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ bionic-security main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ bionic-updates main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ bionic-proposed main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ bionic-backports main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ bionic main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ bionic-security main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ bionic-updates main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ bionic-proposed main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ bionic-backports main restricted universe multiverse
+```
+
+按**`ESC`**键退出编辑模式
+
+输入**`:wq`**保存并退出vi编辑器
+
+### 更新&升级
+
+```bash
+sudo apt update
+sudo apt upgrade
+sudo apt autoremove
+```
+
+执行此过程需要一定的时间，请坐和放宽<img src="https://s1.ax1x.com/2020/07/28/aA6TOI.png" style="zoom:25%;" />
+
+其中第三个命令不是必须的，但是既然有用不到的包何不及时清理呢？
+另外说明一下，如果命令执行期间有报错或卡住的情况，直接`ctrl+C`重新执行即可，它会自动跳过之前已完成的部分（get 序号会从1重新开始计数，但不会重新get已完成的包）。
+另外如果遇到`bluemen`的报错，可以忽略不管。
+
+
+
+## 参考资料
+
+https://www.runoob.com/linux/linux-intro.html
+
+https://blog.csdn.net/xmh19936688/article/details/90212960
+
