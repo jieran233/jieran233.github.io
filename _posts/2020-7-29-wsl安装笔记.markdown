@@ -125,13 +125,14 @@ sudo apt autoremove
 
 **后面没时间写了，先直接复制粘贴吧，有空再好好改<img src="https://s1.ax1x.com/2020/07/28/aA6TOI.png" style="zoom:25%;" /><img src="https://s1.ax1x.com/2020/07/28/aAWDqs.png" style="zoom:25%;" />**
 
-<hr>
 
 ### 安装桌面环境xubuntu
 
 ```bash
 sudo apt install xubuntu-desktop
 ```
+
+~~这可能需要几分钟~~，请务必坐和放宽<img src="https://s1.ax1x.com/2020/07/28/aA6TOI.png" style="zoom:25%;" />
 
 说明一下，本人最开始执着于`gnome`桌面，在各种google无果后选择了搜错过程中出现次数最多的`xfce4`，同时了解到`xubuntu`是`xfce4`的一个扩展，于是采用`xubuntu`桌面环境，在使用了几天后发现还挺好用，它里面内置了若干`panel`可供替换（这个后面再说）。如果弹出选择gdm3或lightdm，选择gdm3
 

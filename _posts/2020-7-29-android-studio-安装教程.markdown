@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [搬运] Android Studio 安装教程
+title: Android Studio 安装教程
 date: 2020-07-29 20:47:13 +0800
 categories: technology
 tags: 
