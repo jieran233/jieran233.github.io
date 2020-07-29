@@ -62,7 +62,7 @@ animation: # animate.css, see https://github.com/daneden/animate.css
 #       pic: 'http://img4.kuwo.cn/star/starheads/240/72/35/3484765923.jpg'
 
 head_card:
-  switch: true
+  switch: false
   left_img: "https://s1.ax1x.com/2020/07/28/aAyVET.md.png"
   left_text: "最近想看：《宇崎学妹想要玩!》"
   right_img: "https://s1.ax1x.com/2020/07/24/Uvvruj.jpg"
