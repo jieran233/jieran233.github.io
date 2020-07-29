@@ -1,0 +1,9 @@
+---
+layout: post
+title: 实时疫情地图
+date: 2020-01-01 10:11:34 +0800
+categories: undefined
+tags: 
+img: 
+---
+<iframe src="https://www.lovestu.com/api/project/cnmapyinqing/obj.php" height="500" frameborder="no" border="0" width="100%"> </iframe>
