@@ -63,7 +63,7 @@ animation: # animate.css, see https://github.com/daneden/animate.css
 
 head_card:
   switch: true
-  left_img: "https://s1.ax1x.com/2020/07/28/aAyVET.md.png"
-  left_text: "最近想看：《宇崎学妹想要玩!》"
+  left_img: "https://s1.ax1x.com/2020/07/30/aMZy38.jpg"
+  left_text: "期待的新番:《成神之日》(左),《Kud Wafter》(右)"
   right_img: "https://s1.ax1x.com/2020/07/24/Uvvruj.jpg"
   offset_level: 2
