@@ -2,7 +2,7 @@
 layout: post
 title: Android Studio 安装教程
 date: 2020-07-29 20:47:13 +0800
-categories: technology
+categories: Technology
 tags: 
 img: https://img-blog.csdnimg.cn/2019071612144225.png
 ---
