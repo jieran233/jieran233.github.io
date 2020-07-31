@@ -3,11 +3,11 @@ layout: post
 title: Java 学习笔记 1
 date: 2020-07-30 22:05:34 +0800
 categories: Java
-tags: 
+tags: Java
 img: 
 ---
 
-## 第一章 在画面上显示字符
+# 第1章 在画面上显示字符
 
 - Java 编程语言拥有众多优点，支持**面向对象编程**。自从发布以来，随着其不断修订，使用者也越来越多。
 - Java 程序的开发需要免费的 **Java 开发工具包**，即 JDK。
