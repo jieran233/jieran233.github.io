@@ -29,4 +29,4 @@ img: https://s1.ax1x.com/2020/07/24/Uvvruj.jpg
 
 <center>扫描二维码，手机打开本站</center>
 
-<img src="https://s1.ax1x.com/2020/07/30/anegk6.jpg" style="zoom:20%;" />
+<center><img src="https://s1.ax1x.com/2020/07/30/anegk6.jpg" style="zoom:20%;" /></center>
