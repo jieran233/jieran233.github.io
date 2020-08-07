@@ -77,7 +77,7 @@ animation: # animate.css, see https://github.com/daneden/animate.css
 
 head_card:
   switch: true
-  left_img: "https://s1.ax1x.com/2020/08/07/aWt9ld.md.jpg"
+  left_img: "https://s1.ax1x.com/2020/08/07/aWy3Yn.md.jpg"
   left_text: "今天是宫泽有纪宁（《CLANNAD》)的生日，祝她生日快乐！"
   right_img: "https://s1.ax1x.com/2020/07/24/Uvvruj.jpg"
   offset_level: 2
