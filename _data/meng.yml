@@ -68,16 +68,9 @@ animation: # animate.css, see https://github.com/daneden/animate.css
 #   right_img: "https://s1.ax1x.com/2020/07/24/Uvvruj.jpg"
 #   offset_level: 2
 
-# head_card:
-#   switch: true
-#   left_img: "https://s1.ax1x.com/2020/08/05/asG8vF.png"
-#   left_text: "最近在看:《ef - a tale of memories》"
-#   right_img: "https://s1.ax1x.com/2020/07/24/Uvvruj.jpg"
-#   offset_level: 2
-
 head_card:
   switch: true
-  left_img: "https://s1.ax1x.com/2020/08/07/aWy4kd.md.jpg"
-  left_text: "今天是宫泽有纪宁（CLANNAD）的生日，祝她生日快乐！"
+  left_img: "https://s1.ax1x.com/2020/08/05/asG0C6.png"
+  left_text: "最近在看:《ef - a tale of melodies》"
   right_img: "https://s1.ax1x.com/2020/07/24/Uvvruj.jpg"
   offset_level: 2
