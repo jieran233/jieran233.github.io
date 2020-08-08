@@ -70,7 +70,7 @@ animation: # animate.css, see https://github.com/daneden/animate.css
 
 head_card:
   switch: true
-  left_img: "https://s1.ax1x.com/2020/08/05/asG0C6.png"
+  left_img: "https://s1.ax1x.com/2020/08/08/a5cFrq.png"
   left_text: "最近在看:《ef - a tale of melodies》"
   right_img: "https://s1.ax1x.com/2020/07/24/Uvvruj.jpg"
   offset_level: 2
