@@ -1,0 +1,56 @@
+---
+layout: post
+title: 孑染工具箱 C# 重构版 正在开发！
+date: 2020-08-15 19:21:31 +0800
+categories: Daily
+tags: jieranTools
+img: https://s1.ax1x.com/2020/08/15/dkRqbT.png
+---
+
+## 介绍
+
+![](https://s1.ax1x.com/2020/08/15/dkRqbT.png)
+
+孑染工具箱 C# 重构版 正在开发！<img src="https://s1.ax1x.com/2020/07/28/aAWDqs.png" style="zoom:25%;" />
+
+~~又名 孑染工具箱 C# 重写版 ， 孑染工具箱 C# Rewrite版 ， 孑染工具箱 C# 罚抄版。~~ <img src="https://s1.ax1x.com/2020/07/28/aA6TOI.png" style="zoom:25%;" />
+
+孑染工具箱 C# 重构版 使用基于 **.NET Core 3.1** 的 **WPF** ，**C#** 编写。初版就引入了**FluentWPF**包，界面美观。最重要的是，**开源**！<img src="https://s1.ax1x.com/2020/07/28/aAWDqs.png" style="zoom:25%;" />
+
+## 开发情况
+
+以下为截至撰写本文时的更新日志：
+
+```markdown
+# jieranTools C# Build - 更新日志
+
+## 2020.8.15 - v0.1.1
+
+- 完善界面
+- 现在主窗口不可最大化和自由调整大小
+
+## 2020.8.14 - v0.1.0
+
+- 构建基本界面，极为简陋
+- 引入FluentWPF，得益于 Fluent Design 以及 WPF ，未来版本的 jieranTools 界面将更为美观。
+```
+
+开发情况不咋地，毕竟 C# 基本不会。<img src="https://s1.ax1x.com/2020/07/28/aA6TOI.png" style="zoom:25%;" />
+
+有个大胆的想法，程序功能拿易语言写，编译成一个DLL，再拿C#调用。<img src="https://s1.ax1x.com/2020/07/28/aA6TOI.png" style="zoom:25%;" /><img src="https://s1.ax1x.com/2020/07/28/aA6TOI.png" style="zoom:25%;" />
+
+## 预览体验
+
+就是一个界面框架，啥功能都没有。欢迎加入预览体验计划。<img src="https://s1.ax1x.com/2020/07/28/aAWDqs.png" style="zoom:25%;" /><img src="https://s1.ax1x.com/2020/07/28/aAWDqs.png" style="zoom:25%;" />
+
+### 使用须知
+
+- 本程序基于 `.NET Core 3.1` 。**若要运行本程序，您的设备上必须安装运行时环境 `.NET Core 3.1 Runtime` 。**若您的设备上没有安装该环境，请[【点击这里】](https://dotnet.microsoft.com/download/dotnet-core/current/runtime)下载 `.NET Core 3.1 Runtime` ，否则您将无法运行本程序。
+- 本程序使用 MIT协议 开源。
+
+### 下载地址
+
+GitHub 上目前我还没有上传发布版，可以[【点击这里】](https://jieran233.lanzoui.com/iRRTtfnnahi)下载 Windows x86 单文件版。<img src="https://s1.ax1x.com/2020/07/28/aAWDqs.png" style="zoom:25%;" />
+
+也可以[【点击这里】](https://github.com/jieran233/jieranTools)去GitHub仓库下载源代码自行编译。<img src="https://s1.ax1x.com/2020/07/28/aAWDqs.png" style="zoom:25%;" />
+
