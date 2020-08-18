@@ -61,16 +61,16 @@ animation: # animate.css, see https://github.com/daneden/animate.css
 #       url: 'http://www.170mv.com/kw/other.web.ri01.sycdn.kuwo.cn/resource/n2/44/7/1205252665.mp3'
 #       pic: 'http://img4.kuwo.cn/star/starheads/240/72/35/3484765923.jpg'
 
-head_card:
-  switch: true
-  left_img: "https://s1.ax1x.com/2020/07/30/aMZy38.jpg"
-  left_text: "期待的新番:《成神之日》(左),《Kud Wafter》(右)"
-  right_img: "https://s1.ax1x.com/2020/07/24/Uvvruj.jpg"
-  offset_level: 2
-
 # head_card:
 #   switch: true
-#   left_img: "https://s1.ax1x.com/2020/08/08/a5cFrq.png"
-#   left_text: "最近在看:《ef - a tale of melodies》"
+#   left_img: "https://s1.ax1x.com/2020/07/30/aMZy38.jpg"
+#   left_text: "期待的新番:《成神之日》(左),《Kud Wafter》(右)"
 #   right_img: "https://s1.ax1x.com/2020/07/24/Uvvruj.jpg"
 #   offset_level: 2
+
+head_card:
+  switch: true
+  left_img: "https://s1.ax1x.com/2020/08/18/dKnLV0.jpg"
+  left_text: "最近在看:《Rewrite》"
+  right_img: "https://s1.ax1x.com/2020/07/24/Uvvruj.jpg"
+  offset_level: 2
