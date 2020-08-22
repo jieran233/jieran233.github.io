@@ -70,7 +70,7 @@ animation: # animate.css, see https://github.com/daneden/animate.css
 
 head_card:
   switch: true
-  left_img: "https://s1.ax1x.com/2020/08/18/dKnLV0.jpg"
-  left_text: "最近在看:《Rewrite》"
+  left_img: "https://s1.ax1x.com/2020/08/22/da1Rb9.jpg"
+  left_text: "最近在看:《Rewrite 2nd Season》"
   right_img: "https://s1.ax1x.com/2020/07/24/Uvvruj.jpg"
   offset_level: 2
