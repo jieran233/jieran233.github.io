@@ -1,0 +1,24 @@
+- name: HOME
+  url: /blog/
+  icon: home
+- name: CATEGORY
+  url: /blog/category/
+  # icon: "&#xe53b;"
+- name: TAGS
+  url: /blog/tags/
+  # icon: "&#xe893;"
+# - name: LOVER
+#   url: /love/
+#   icon: "&#xe87d;"
+#   color: "red"
+- name: LINKS
+  url: /blog/links/
+  # icon: "&#xe8a3;
+- name: EDITOR
+  url: /blog/editor/
+  # icon: "&#xe150;"
+- name: ABOUT
+  url: /blog/hello/2020/07/24/about-me.html
+  # icon: "&#xe53b;"
+- name: navSearch
+  switch: true
