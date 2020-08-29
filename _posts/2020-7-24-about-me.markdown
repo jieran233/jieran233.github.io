@@ -4,7 +4,7 @@ title: About me
 date: 2020-07-24 20:38:14 +0800
 categories: Hello
 tags: 
-img: https://s1.ax1x.com/2020/07/24/Uvvruj.jpg
+img: https://gitee.com/jieran233/pic-bed/raw/master/Uvvruj.jpg
 ---
 
 > **About me**
@@ -23,4 +23,4 @@ img: https://s1.ax1x.com/2020/07/24/Uvvruj.jpg
 
 
 
-<center>这里是 Jieran233 ，请各位多多指教<br/>如果您喜欢我的博文，欢迎您将我的博客添加到您的收藏夹中<br/>欢迎在评论区中指出我的不足之处，感谢您的支持</center><br/><br/><center>扫描二维码，手机打开本站</center><center><img src="https://s1.ax1x.com/2020/07/30/anegk6.jpg" style="zoom:20%;" /></center>
+<center>这里是 Jieran233 ，请各位多多指教<br/>如果您喜欢我的博文，欢迎您将我的博客添加到您的收藏夹中<br/>欢迎在评论区中指出我的不足之处，感谢您的支持</center><br/><br/><center>扫描二维码，手机打开本站</center><center><img src="https://gitee.com/jieran233/pic-bed/raw/master/QRcode_C2.jpg" style="zoom:20%;" /></center>

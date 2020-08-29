@@ -8,11 +8,11 @@ img: https://s1.ax1x.com/2020/08/10/ab1GB4.png
 ---
 ## 介绍
 
-孑染工具箱，一款由轻`jian`量`lou`级的工~~`la`~~具~~`ji`~~箱。<img src="https://s1.ax1x.com/2020/07/28/aA6TOI.png" style="zoom:25%;" />
+孑染工具箱，一款由轻`jian`量`lou`级的工~~`la`~~具~~`ji`~~箱。<img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_64_shounuehuaji.png" style="zoom:25%;" />
 
-其实是自己用的工具箱，别的工具箱有的这里没有，别的没有的这里有<img src="https://s1.ax1x.com/2020/07/28/aAWDqs.png" style="zoom:25%;" />
+其实是自己用的工具箱，别的工具箱有的这里没有，别的没有的这里有<img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_37_doge.png" style="zoom:25%;" />
 
-把自用的软件公开是因为 ~~我有个朋友想要用~~ 好东西要给大家分享<img src="https://s1.ax1x.com/2020/07/28/aA6TOI.png" style="zoom:25%;" /><img src="https://s1.ax1x.com/2020/07/28/aAWDqs.png" style="zoom:25%;" />
+把自用的软件公开是因为 ~~我有个朋友想要用~~ 好东西要给大家分享<img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_64_shounuehuaji.png" style="zoom:25%;" /><img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_37_doge.png" style="zoom:25%;" />
 
 ## 更新日志
 
@@ -51,11 +51,11 @@ img: https://s1.ax1x.com/2020/08/10/ab1GB4.png
 
 （由 Google 翻译 强力驱动）
 
-- 生草效果GIF演示，效果拔群<img src="https://s1.ax1x.com/2020/07/28/aA6TOI.png" style="zoom:25%;" />
+- 生草效果GIF演示，效果拔群<img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_64_shounuehuaji.png" style="zoom:25%;" />
 
 ![](https://s1.ax1x.com/2020/08/10/abGzKf.gif)
 
-- 生草结果完整文本，配合工具 `百度文字转语音` 效果更佳<img src="https://s1.ax1x.com/2020/07/28/aA6TOI.png" style="zoom:25%;" /><img src="https://s1.ax1x.com/2020/07/28/aA6TOI.png" style="zoom:25%;" />
+- 生草结果完整文本，配合工具 `百度文字转语音` 效果更佳<img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_64_shounuehuaji.png" style="zoom:25%;" /><img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_64_shounuehuaji.png" style="zoom:25%;" />
 
 ```
 有人说这是世界之道
@@ -112,7 +112,7 @@ img: https://s1.ax1x.com/2020/08/10/ab1GB4.png
 如果你们依然需要我们的祝福，那么，奔涌吧，后浪！我们在同一条奔涌的河流。
 ```
 
-这次更新里，谷歌生草机算是最沙雕有趣的了<img src="https://s1.ax1x.com/2020/07/28/aA6TOI.png" style="zoom:25%;" />
+这次更新里，谷歌生草机算是最沙雕有趣的了<img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_64_shounuehuaji.png" style="zoom:25%;" />
 
 ## 下载地址
 
@@ -124,7 +124,7 @@ img: https://s1.ax1x.com/2020/08/10/ab1GB4.png
 
 本程序是绿色软件，双击exe文件即可运行。
 
-感谢各位的支持<img src="https://s1.ax1x.com/2020/07/28/aAWDqs.png" style="zoom:25%;" />
+感谢各位的支持<img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_37_doge.png" style="zoom:25%;" />
 
 <hr/>
 
@@ -138,9 +138,9 @@ img: https://s1.ax1x.com/2020/08/10/ab1GB4.png
 - 添加工具 五笔编码查询
 ```
 
-不过v3.1更新的重头戏是，五笔编码查询的验证码支持自动识别<img src="https://s1.ax1x.com/2020/07/28/aA6TOI.png" style="zoom:25%;" />
+不过v3.1更新的重头戏是，五笔编码查询的验证码支持自动识别<img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_64_shounuehuaji.png" style="zoom:25%;" />
 
-只需要下载一个`dll`文件，就可以识别验证码啦，解放你的双手<img src="https://s1.ax1x.com/2020/07/28/aAWDqs.png" style="zoom:25%;" />
+只需要下载一个`dll`文件，就可以识别验证码啦，解放你的双手<img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_37_doge.png" style="zoom:25%;" />
 
 示例：
 

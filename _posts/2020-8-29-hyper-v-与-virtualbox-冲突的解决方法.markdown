@@ -7,7 +7,7 @@ tags:  Virtual Machine
 img: 
 ---
 
-蓝屏图就不贴了<img src="https://s1.ax1x.com/2020/07/28/aA6TOI.png" style="zoom:25%;" />
+蓝屏图就不贴了<img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_64_shounuehuaji.png" style="zoom:25%;" />
 
 > P.S. Windows沙盒 与 MuMu模拟器 冲突的问题亦可用此方法解决，因为 Windows沙盒 基于 Hyper-V，MuMu 模拟器基于 VirtualBox
 

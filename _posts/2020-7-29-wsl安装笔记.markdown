@@ -21,7 +21,7 @@ img: https://s1.ax1x.com/2020/07/29/aZAHtH.png
 | 学习     | 系统构造复杂、变化频繁，且知识、技能淘汰快，深入学习困难。   | 系统构造简单、稳定，且知识、技能传承性好，深入学习相对容易。 |
 | 软件     | 每一种特定功能可能都需要商业软件的支持，需要购买相应的授权。 | 大部分软件都可以自由获取，同样功能的软件选择较少。           |
 
-而在开发中，无论是开发环境的部署，还是安装软件包，Linux都要比Windows方便得多<img src="https://s1.ax1x.com/2020/07/28/aAWDqs.png" style="zoom:25%;" />
+而在开发中，无论是开发环境的部署，还是安装软件包，Linux都要比Windows方便得多<img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_37_doge.png" style="zoom:25%;" />
 
 ### Why WSL?
 
@@ -39,7 +39,7 @@ img: https://s1.ax1x.com/2020/07/29/aZAHtH.png
 
 控制面板→程序和功能→启用或关闭Windows功能（也有的Win10版本这个叫打开或关闭Windows功能）
 
-或者直接`Win+S`输入`q`，反正我这里是能匹配到启用或关闭Windows功能<img src="https://s1.ax1x.com/2020/07/28/aA6TOI.png" style="zoom:25%;" />
+或者直接`Win+S`输入`q`，反正我这里是能匹配到启用或关闭Windows功能<img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_64_shounuehuaji.png" style="zoom:25%;" />
 
 <img src="https://s1.ax1x.com/2020/07/29/aZZQ61.png" style="zoom:67%;" />
 
@@ -61,11 +61,11 @@ img: https://s1.ax1x.com/2020/07/29/aZAHtH.png
 
 ### 启动 Ubuntu
 
-做完上面的操作，就可以启动 Ubuntu 啦<img src="https://s1.ax1x.com/2020/07/28/aAWDqs.png" style="zoom:25%;" />
+做完上面的操作，就可以启动 Ubuntu 啦<img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_37_doge.png" style="zoom:25%;" />
 
 ![](https://s1.ax1x.com/2020/07/29/aZK0dx.png)
 
-如图，待安装完毕后，即可输入用户名和密码，开始使用Ubuntu啦<img src="https://s1.ax1x.com/2020/07/28/aAWDqs.png" style="zoom:25%;" />
+如图，待安装完毕后，即可输入用户名和密码，开始使用Ubuntu啦<img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_37_doge.png" style="zoom:25%;" />
 
 （顺便一说，在 cmd 中输入 bash 也能启动WSL）
 
@@ -73,7 +73,7 @@ img: https://s1.ax1x.com/2020/07/29/aZAHtH.png
 
 ### Ubuntu换源
 
-这一步不是必须的。前提是你的网络足够好，或者你有翻山越岭的本领<img src="https://s1.ax1x.com/2020/07/28/aA6TOI.png" style="zoom:25%;" />
+这一步不是必须的。前提是你的网络足够好，或者你有翻山越岭的本领<img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_64_shounuehuaji.png" style="zoom:25%;" />
 首先，切换到超级用户。执行`sudo su`并输入你的密码。
 
 然后，既然要修改系统文件，那么肯定要先备份，复制一下我们需要的修改的`sources.list`。
@@ -82,11 +82,11 @@ img: https://s1.ax1x.com/2020/07/29/aZAHtH.png
 cp /etc/apt/sources.list /etc/apt/sources.list.bak
 ```
 
-然后执行`vi /etc/apt/sources.list`，这里说一下vi编辑器的用法，因为我整这个整了半天都没搞定<img src="https://s1.ax1x.com/2020/07/28/aA6TOI.png" style="zoom:25%;" />
+然后执行`vi /etc/apt/sources.list`，这里说一下vi编辑器的用法，因为我整这个整了半天都没搞定<img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_64_shounuehuaji.png" style="zoom:25%;" />
 
 <img src="https://s1.ax1x.com/2020/07/29/aZ35RK.png" style="zoom:67%;" />
 
-执行完了你看到的大概是这样一个样子，这就是vi编辑器，想了解更多可以去自行学习<img src="https://s1.ax1x.com/2020/07/28/aAWDqs.png" style="zoom:25%;" />
+执行完了你看到的大概是这样一个样子，这就是vi编辑器，想了解更多可以去自行学习<img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_37_doge.png" style="zoom:25%;" />
 
 按**`i`**键进入编辑模式
 
@@ -117,13 +117,13 @@ sudo apt upgrade
 sudo apt autoremove
 ```
 
-执行此过程需要一定的时间，请坐和放宽<img src="https://s1.ax1x.com/2020/07/28/aA6TOI.png" style="zoom:25%;" />
+执行此过程需要一定的时间，请坐和放宽<img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_64_shounuehuaji.png" style="zoom:25%;" />
 
 其中第三个命令不是必须的，但是既然有用不到的包何不及时清理呢？
 另外说明一下，如果命令执行期间有报错或卡住的情况，直接`ctrl+C`重新执行即可，它会自动跳过之前已完成的部分（get 序号会从1重新开始计数，但不会重新get已完成的包）。
 另外如果遇到`bluemen`的报错，可以忽略不管。
 
-**后面没时间写了，先直接复制粘贴吧，有空再好好改<img src="https://s1.ax1x.com/2020/07/28/aA6TOI.png" style="zoom:25%;" /><img src="https://s1.ax1x.com/2020/07/28/aAWDqs.png" style="zoom:25%;" />**
+**后面没时间写了，先直接复制粘贴吧，有空再好好改<img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_64_shounuehuaji.png" style="zoom:25%;" /><img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_37_doge.png" style="zoom:25%;" />**
 
 
 ### 安装桌面环境xubuntu
@@ -132,7 +132,7 @@ sudo apt autoremove
 sudo apt install xubuntu-desktop
 ```
 
-~~这可能需要几分钟~~，请务必坐和放宽<img src="https://s1.ax1x.com/2020/07/28/aA6TOI.png" style="zoom:25%;" />
+~~这可能需要几分钟~~，请务必坐和放宽<img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_64_shounuehuaji.png" style="zoom:25%;" />
 
 说明一下，本人最开始执着于`gnome`桌面，在各种google无果后选择了搜错过程中出现次数最多的`xfce4`，同时了解到`xubuntu`是`xfce4`的一个扩展，于是采用`xubuntu`桌面环境，在使用了几天后发现还挺好用，它里面内置了若干`panel`可供替换（这个后面再说）。如果弹出选择gdm3或lightdm，选择gdm3
 

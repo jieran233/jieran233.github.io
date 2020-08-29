@@ -49,7 +49,7 @@ ping 1.1.1.1 && ping 1.0.0.1 && ping 156.154.70.1
 
 备选DNS UltraDNS   156.154.70.1
 
-博主目前就是用的这个配置，感觉良好<img src="https://s1.ax1x.com/2020/07/28/aAWDqs.png" style="zoom:25%;" />
+博主目前就是用的这个配置，感觉良好<img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_37_doge.png" style="zoom:25%;" />
 
 <hr/>
 
