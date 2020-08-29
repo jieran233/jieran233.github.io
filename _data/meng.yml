@@ -22,7 +22,7 @@ header: # Meng header color + theme-color
 
 background: # Meng background
   switch: true
-  background_img: "https://s1.ax1x.com/2020/07/24/UxedPg.jpg"
+  background_img: "https://gitee.com/jieran233/pic-bed/raw/master/UxedPg.jpg"
   transparent_header: true
   transparent_footer: false
   text_color: '#000'
@@ -65,12 +65,12 @@ head_card:
   switch: true
   left_img: "https://s1.ax1x.com/2020/07/30/aMZy38.jpg"
   left_text: "期待的新番:《成神之日》(左),《Kud Wafter》(右)"
-  right_img: "https://s1.ax1x.com/2020/07/24/Uvvruj.jpg"
+  right_img: "https://gitee.com/jieran233/pic-bed/raw/master/%E6%9C%AA%E6%A0%87%E9%A2%98-1.jpg"
   offset_level: 2
 
 # head_card:
 #   switch: true
 #   left_img: "https://s1.ax1x.com/2020/08/22/da1Rb9.jpg"
 #   left_text: "最近在看:《Rewrite 2nd Season》"
-#   right_img: "https://s1.ax1x.com/2020/07/24/Uvvruj.jpg"
+#   right_img: "https://gitee.com/jieran233/pic-bed/raw/master/Uvvruj.jpg"
 #   offset_level: 2

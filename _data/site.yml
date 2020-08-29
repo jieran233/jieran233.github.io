@@ -1,7 +1,7 @@
 head:
-   favicon: "https://s1.ax1x.com/2020/07/24/Uvvruj.jpg" #  the favicon
-   high_res_favicon: "https://s1.ax1x.com/2020/07/24/Uvvruj.jpg" #  the favicon using high quality format
-   apple_touch_icon: "https://s1.ax1x.com/2020/07/24/Uvvruj.jpg" # the iOS Home button icon
+   favicon: "https://gitee.com/jieran233/pic-bed/raw/master/Uvvruj.jpg" #  the favicon
+   high_res_favicon: "https://gitee.com/jieran233/pic-bed/raw/master/Uvvruj.jpg" #  the favicon using high quality format
+   apple_touch_icon: "https://gitee.com/jieran233/pic-bed/raw/master/Uvvruj.jpg" # the iOS Home button icon
    keywords: "jieran233 孑染 blog 博客 个人网站" #  the site keywords
 
 uiux:
@@ -14,7 +14,7 @@ background:
    purecolor: "#eeeeee" # the background color
 
 img:
-   avatar: "https://s1.ax1x.com/2020/07/24/Uvvruj.jpg" # your avatar
+   avatar: "https://gitee.com/jieran233/pic-bed/raw/master/Uvvruj.jpg" # your avatar
 
 card:
    card_shadow: 5 # card shadow (0-24), 0 is not displayed
