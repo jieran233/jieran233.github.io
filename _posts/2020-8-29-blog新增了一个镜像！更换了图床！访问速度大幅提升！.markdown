@@ -1,0 +1,63 @@
+---
+layout: post
+title: Blog新增了一个镜像！更换了图床！访问速度大幅提升！
+date: 2020-08-29 14:30:57 +0800
+categories: Daily
+tags: Blog
+img: https://gitee.com/jieran233/pic-bed/raw/master/high-speed.png
+---
+> Gitee YES!<img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_64_shounuehuaji.png" style="zoom:25%;" />
+
+今天调整了一下Blog，访问速度大幅提升！
+
+## 新增高速镜像
+
+今天解决了Gitee账号的问题，立刻从GitHub导入了Blog仓库，开通了 Gitee Pages，网址是：
+
+> **https://jieran233.gitee.io**
+
+访问速度和原先的比，可以算是高速啦<img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_37_doge.png" style="zoom:25%;" />
+
+建议以后用这个网址访问我的Blog，GitHub在国内访问速度真的很糟糕，前几天`github.io`被移动DNS污染了，整个GitHub都快被污染的差不多了
+
+最简单的方法是改用国内服务，于是就用了国内服务，Gitee真香<img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_37_doge.png" style="zoom:25%;" />
+
+P.S. 启用这个镜像地址，并不代表原先的`jieran233.github.io`会被我停用，原先的地址也可以访问的（除非被墙被污染），每次我会先在GitHub存储库上提交，然后在Gitee存储库上同步GitHub存储库，从而实现镜像地址高速访问<img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_37_doge.png" style="zoom:25%;" />
+
+## 更换高速图床
+
+同时我又在Gitee开了一个存储库，用作图床
+
+因为我注意到Blog访问慢主要是因为那个破烂免费图床，访问实在太慢了<img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_64_shounuehuaji.png" style="zoom:25%;" />
+
+于是把一些会在主页加载的图片转移到了Gitee存储库，一个字：香<img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_37_doge.png" style="zoom:25%;" />
+
+访问速度和原先的比，可以算是高速啦<img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_37_doge.png" style="zoom:25%;" />
+
+P.S. Gitee限制每小时上传20个文件，现在主要是把加载首页需要加载的图片迁移过来了，博文中的图片暂时没有迁过来，以后的博文会使用Gitee存储库作为图床，实现高速访问（其实博文中的受虐滑稽和doge已经迁过来啦，你看是不是很高速呢，你现在就在看着船新的高速滑稽哟→<img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_64_shounuehuaji.png" style="zoom:25%;" /><img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_64_shounuehuaji.png" style="zoom:25%;" />）
+
+## 短网址
+
+Blog原本有一个为了方便访问的而使用的短网址，网址是：
+
+> **http://rqgd.tk**
+
+没错，freenom免费域名，还不支持https<img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_64_shounuehuaji.png" style="zoom:25%;" />）
+
+原先访问这个域名会301重定向到原先的域名，现在随着高速镜像的增加会301重定向到高速镜像的域名，YES！
+
+啥？问我啥是`rqgd`，反正不是拼音，当时想域名的时候想了半天，想找一个没有被使用的，尽可能短，具有个性的域名，想了半天，想到了这个域名，`rqgd`是我的名字的新世纪五笔编码，四位以下的域名要钱还贼贵，五笔编码正好四位，看了下果不其然没人用，这个域名就这么来啦<img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_64_shounuehuaji.png" style="zoom:25%;" />
+
+P.S. 修改短网址的重定向位置可能需要一段时间才能生效
+
+## 结语
+
+通过以上的优化，本站访问速度大幅提升，原先万年不载入完毕，现在基本可以实现秒开，效果如图：
+
+![](https://gitee.com/jieran233/pic-bed/raw/master/high-speed.png)
+
+测试时使用5GhzWiFi，实际速度会受网络环境的影响<img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_37_doge.png" style="zoom:25%;" />
+
+图是拿Win10自带的画图3D做的，感觉效果还是挺不错的<img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_37_doge.png" style="zoom:25%;" />
+
+最后希望本站能对各位有帮助，感谢您的阅读！<img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_37_doge.png" style="zoom:25%;" />
