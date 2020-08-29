@@ -9,7 +9,7 @@ img: https://gitee.com/jieran233/pic-bed/raw/master/Uvvruj.jpg
 
 > **About me**
 
-<center><img src="https://s1.ax1x.com/2020/07/24/Uvqi5D.jpg" alt="Uvqi5D.jpg" style="zoom:15%;" /></center>
+<center><img src="https://gitee.com/jieran233/pic-bed/raw/master/Uvvruj.jpg" alt="Uvqi5D.jpg" style="zoom:15%;" /></center>
 
 <center><b>Jieran233</b></center>
 

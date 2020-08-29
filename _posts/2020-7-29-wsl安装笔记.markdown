@@ -4,7 +4,7 @@ title: WSL安装笔记
 date: 2020-07-29 10:44:57 +0800
 categories: Technology
 tags: Linux
-img: https://s1.ax1x.com/2020/07/29/aZAHtH.png
+img: https://gitee.com/jieran233/pic-bed/raw/master/aZAHtH.png
 ---
 
 ## 介绍
