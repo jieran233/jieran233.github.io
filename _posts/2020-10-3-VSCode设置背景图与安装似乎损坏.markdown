@@ -1,7 +1,7 @@
 ---
 layout: post
-title: VSCode设置背景图与VSCode提示安装似乎损坏，请重新安装
-date:  21:52:13 +0800
+title: VSCode设置背景图与安装似乎损坏
+date:  21:20:13 +0800
 categories: Technology
 tags: VSCode 美化
 img: https://gitee.com/jieran233/pic-bed/raw/master/1601729883177.png
@@ -55,7 +55,7 @@ img: https://gitee.com/jieran233/pic-bed/raw/master/1601729883177.png
 ## 问题原因
 
 - 应为安装了background 扩展程序导致
- 
+
  背景扩展程序更改了核心文件，就显示不受支持，checksums是重新检验的
 
 ## 解决方法
