@@ -71,6 +71,6 @@ head_card:
 head_card:
   switch: true
   left_img: "https://gitee.com/jieran233/pic-bed/raw/master/20201003212218_1.jpg"
-  left_text: "最近在推的Gal:《CLANNAD》，欢迎同好一起讨论"
+  left_text: "最近在推的Gal:《CLANNAD》；同时也期待Key新番《成神之日》。欢迎同好一起讨论。"
   right_img: "https://gitee.com/jieran233/pic-bed/raw/master/Uvvruj.jpg"
   offset_level: 2
