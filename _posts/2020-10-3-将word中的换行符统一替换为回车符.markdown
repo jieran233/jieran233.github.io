@@ -1,0 +1,54 @@
+---
+layout: post
+title: 将word中的换行符统一替换为回车符
+date:  21:01:42 +0800
+categories: undefined
+tags: Technology
+img: 
+---
+
+没时间了，直接复制粘贴了，见谅<img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_64_shounuehuaji.png" style="zoom:25%;" /><img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_64_shounuehuaji.png" style="zoom:25%;" /><img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_64_shounuehuaji.png" style="zoom:25%;" />
+来源：**https://jingyan.baidu.com/article/456c463b593e770a583144ee.html**
+
+1. 在打开的word中，依次点击【文件】选项卡>选项（或在功能区右键单击>自定义功能区），打开word选项窗口。
+
+   ![将word中的换行符统一替换为回车符](https://exp-picture.cdn.bcebos.com/8974c38a59de4507c9fde8c35e413a8ca7088553.jpg?x-bce-process=image%2Fresize%2Cm_lfit%2Cw_500%2Climit_1)
+
+   ![将word中的换行符统一替换为回车符](https://exp-picture.cdn.bcebos.com/d400248ca608a50fd300803f10cec7f88b77ff53.jpg?x-bce-process=image%2Fresize%2Cm_lfit%2Cw_500%2Climit_1)
+
+2. 
+
+   在选项窗口中，在左侧菜单栏中选到“显示”菜单，然后在窗口右栏中找到“始终在屏幕上显示这些格式标记”选项，勾选其中的“段落标记”复选框，也可直接勾选最后一项“显示所有格式标记”。
+
+   点击“确定”按钮。
+
+   ![将word中的换行符统一替换为回车符](https://exp-picture.cdn.bcebos.com/5c9c964ce54a2f27b713f8b5e00192dd3240f453.jpg?x-bce-process=image%2Fresize%2Cm_lfit%2Cw_500%2Climit_1)
+
+3. 
+
+   然后，在word中，就可以看到所有段落标记了。我们可以看到其中用来分段的是不是换行符，如图。
+
+   ![将word中的换行符统一替换为回车符](https://exp-picture.cdn.bcebos.com/3201a8f39187031cc13c7f4f6a86242fa972ec53.jpg?x-bce-process=image%2Fresize%2Cm_lfit%2Cw_500%2Climit_1)
+
+4. 
+
+   在【开始】选项卡的功能区中找到“替换”按钮（在最右侧），点击，打开“查找和替换”对话框（或使用快捷键Ctrl+H）。
+
+   ![将word中的换行符统一替换为回车符](https://exp-picture.cdn.bcebos.com/e0c73a2fa872941fe018e4697b5e4a237871e653.jpg?x-bce-process=image%2Fresize%2Cm_lfit%2Cw_500%2Climit_1)
+
+5. 
+
+   在查找内容文本框中输入“^l”（英文尖角和英文小写字母L，此处为分辨作大写），在替换为文本框中输入“^p”（英文尖角和英文小写字母p），然后单击“全部替换”。
+
+   在替换完成后弹出的对话框中单击“确定”按钮，即全部替换完成。
+
+   ![将word中的换行符统一替换为回车符](https://exp-picture.cdn.bcebos.com/7830e01d96d8181907dc777e876efbf203b3de53.jpg?x-bce-process=image%2Fresize%2Cm_lfit%2Cw_500%2Climit_1)
+
+   ![将word中的换行符统一替换为回车符](https://exp-picture.cdn.bcebos.com/7496877bbbf4da581d260efaea0f8b56ac04d753.jpg?x-bce-process=image%2Fresize%2Cm_lfit%2Cw_500%2Climit_1)
+
+6. 
+
+   然后我们可以看到，word中所有的换行符都被替换为了回车符。
+
+   ![将word中的换行符统一替换为回车符](https://exp-picture.cdn.bcebos.com/ac45306817e951e1790488e55e3da824d9e9cf53.jpg?x-bce-process=image%2Fresize%2Cm_lfit%2Cw_500%2Climit_1)
+

@@ -1,0 +1,37 @@
+---
+layout: post
+title: 一台已联网但没有任何浏览器的Windows机器如何装上浏览器？
+date:  20:44:23 +0800
+categories: Technology
+tags: 浏览器 Windows
+img: 
+---
+最近在知乎上看见这么个有趣的问题
+
+> 一台已联网但没有任何浏览器的Windows机器如何装上浏览器？
+>
+> 假设：
+> \1. Windows机器（Win7为例），已联网
+> \2. 没有任何浏览器，连IE也没有
+> \3. 局域网也没有其他机器
+> \4. 没有安装盘
+> \5. 没有优盘
+> \6. 不能进入其他系统
+> \7. 能够通过手机上网查询浏览器下载地址的确切网址(手机不能连电脑)
+>
+> 问：
+> 如何安装一个浏览器？
+>
+> 自己一下子可以想到的办法：
+> \1. 用FTP去哪里抓一个wget/curl之类的东西，然后去下浏览器
+> \2. 用Powershell/Jscript调用COM或.NET对象去下载
+>
+> 还有没有其他什么更妙的办法？
+
+
+
+**https://www.zhihu.com/question/24412791**
+
+
+
+回答的大佬们简直都是群魔乱舞，奇怪的知识增加了！<img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_64_shounuehuaji.png" style="zoom:25%;" /><img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_64_shounuehuaji.png" style="zoom:25%;" /><img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_64_shounuehuaji.png" style="zoom:25%;" />

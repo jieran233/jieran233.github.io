@@ -1,0 +1,82 @@
+---
+layout: post
+title: VSCode设置背景图与VSCode提示安装似乎损坏，请重新安装
+date:  21:52:13 +0800
+categories: Technology
+tags: VSCode 美化
+img: https://gitee.com/jieran233/pic-bed/raw/master/1601729883177.png
+---
+> 今天尝试了为VSCode设置背景图，感觉很好<img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_64_shounuehuaji.png" style="zoom:25%;" />
+
+## 为VSCode设置背景图
+
+使用 background 扩展程序，教程可以参考下面这个：
+
+**https://cloud.tencent.com/developer/article/1335806**
+
+顺便分享下我的配置文件：
+
+```json
+{
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "extensions.autoUpdate": true,
+    "java.semanticHighlighting.enabled": true,
+    "java.configuration.checkProjectSettingsExclusions": false,
+    "java.requirements.JDK11Warning": false,
+    "python.showStartPage": false,
+    "python.languageServer": "Microsoft",
+    "workbench.colorTheme": "Visual Studio 2019 Dark",
+    "files.autoSave": "off",
+    "workbench.activityBar.visible": true,
+    "background.useDefault": false,
+    "background.customImages": [
+        "file:///C:/Users/jiera/Pictures/Wallpaper/pic104.jpg"
+    ]
+    "background.style": {
+        "content": "''",
+        "pointer-events": "none",
+        "position": "absolute",
+        "z-index": "99999",
+        "width": "100%",
+        "height": "100%",
+        "background-position": "center",
+        "background-repeat": "no-repeat",
+        "background-size": "cover",
+        "opacity": 0.1
+    }
+}
+```
+
+
+
+> 然后打开VSCode发现显示安装似乎损坏，请重新安装。在顶部也显示 [不在支持]
+
+## 问题原因
+
+- 应为安装了background 扩展程序导致
+ 
+ 背景扩展程序更改了核心文件，就显示不受支持，checksums是重新检验的
+
+## 解决方法
+
+- 解决方案1
+  - 卸载 background 扩展程序
+- **解决方法2（推荐）**
+  - 安装 **Fix VSCode Checksums** 扩展程序
+    ![在这里插入图片描述](https://img-blog.csdnimg.cn/2020030819031796.png)
+  - **Ctrl+Shift+P** ， 输入**Fix Checksums ： Apply**， 点击，重启 VSCode 即可
+    ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200308190426278.png)
+
+## 效果展示
+
+于是VSCode不显示安装似乎损坏，在顶部也不显示 [不在支持]
+
+美滋滋地用上了background，**NAGISA赛高！！！**<img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_64_shounuehuaji.png" style="zoom:25%;" />
+
+![](https://gitee.com/jieran233/pic-bed/raw/master/1601729883177.png)
+
+## 参考资料
+
+https://blog.csdn.net/qq_29339467/article/details/104738160
+
