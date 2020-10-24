@@ -33,7 +33,7 @@ card: # Meng card
   card_img_opacity: '0.9'
 
 live2d: # live2d ,see https://github.com/EYHN/hexo-helper-live2d
-  switch: false
+  switch: true
   model: "https://cdn.jsdelivr.net/gh/xiaou520/Live2d-model@0.0.1/Hiyori//Hiyori.model3.json" # model.json path
   drag: true # is drag ?
   in_mobile: false
