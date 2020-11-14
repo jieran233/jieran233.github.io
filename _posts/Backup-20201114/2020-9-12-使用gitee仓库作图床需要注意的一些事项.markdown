@@ -1,0 +1,43 @@
+---
+layout: post
+title: 使用Gitee仓库作图床需要注意的一些事项
+date: 2020-09-12 17:45:14 +0800
+categories: Technology
+tags: 火星救援 沙雕乐园
+img: 
+---
+
+学校放假啦<img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_37_doge.png" style="zoom:25%;" />我回来啦<img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_37_doge.png" style="zoom:25%;" />
+
+前几天试着在学校机房访问了我的Blog，看了一下，？？？图片都加载不出来？？？
+
+刚开始还以为是IE8的兼容性问题（IE
+：这锅劳资不背）<img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_37_doge.png" style="zoom:25%;" />，直到今天回来发现也不能访问。。。<img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_64_shounuehuaji.png" style="zoom:25%;" /><img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_64_shounuehuaji.png" style="zoom:25%;" />
+
+（前排警告：这次犯的错误很低级<img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_37_doge.png" style="zoom:25%;" /><img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_37_doge.png" style="zoom:25%;" />）
+
+## HTTP 403
+
+一开始认问。。。不会是链接失效了吧<img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_64_shounuehuaji.png" style="zoom:25%;" /><img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_37_doge.png" style="zoom:25%;" />
+
+打开控制台一看，HTTP 403，然后想起来图床仓库设置成了私有仓库！<img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_64_shounuehuaji.png" style="zoom:25%;" />
+
+怪不得，之前的Gitee一直是登录的，现在Cookie失效就登出了，由于是私有仓库且没有登录，当然不能访问<img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_37_doge.png" style="zoom:25%;" />
+
+然后改成公开仓库，当场解决<img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_64_shounuehuaji.png" style="zoom:25%;" />
+
+## net::ERR_FAILED
+
+然后，额，发现首页还有一个图片没加载出来，如图
+
+![](https://gitee.com/jieran233/pic-bed/raw/master/uTools_1599909231180.png)
+
+打开F12看到如下报错
+
+![](https://gitee.com/jieran233/pic-bed/raw/master/uTools_1599909256564.png)
+
+然后打开原始数据的链接看了看，找到问题所在
+
+![](https://gitee.com/jieran233/pic-bed/raw/master/uTools_1599909057841.png)
+
+解决方法：压缩图片大小<img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_64_shounuehuaji.png" style="zoom:25%;" /><img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_37_doge.png" style="zoom:25%;" />

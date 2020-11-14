@@ -1,0 +1,9 @@
+---
+layout: post
+title: 实时疫情地图
+date: 2020-08-04 13:23:32 +0800
+categories: Tools
+tags: 在线工具
+img: https://s1.ax1x.com/2020/07/29/aZPoJ1.png
+---
+<iframe src="https://www.lovestu.com/api/project/cnmapyinqing/obj.php" height="500" frameborder="no" border="0" width="100%"> </iframe>

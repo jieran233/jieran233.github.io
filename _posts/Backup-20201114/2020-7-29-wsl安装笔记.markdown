@@ -1,0 +1,340 @@
+---
+layout: post
+title: WSL安装笔记
+date: 2020-07-29 10:44:57 +0800
+categories: Technology
+tags: Linux
+img: https://gitee.com/jieran233/pic-bed/raw/master/aZAHtH.png
+---
+
+## 介绍
+
+### Why Linux?
+
+目前国内 Linux 更多的是应用于服务器上，而桌面操作系统更多使用的是 Windows。主要区别如下
+
+| 比较     | Windows                                                      | Linux                                                        |
+| :------- | :----------------------------------------------------------- | :----------------------------------------------------------- |
+| 界面     | 界面统一，外壳程序固定所有 Windows 程序菜单几乎一致，快捷键也几乎相同 | 图形界面风格依发布版不同而不同，可能互不兼容。GNU/Linux 的终端机是从 UNIX 传承下来，基本命令和操作方法也几乎一致。 |
+| 驱动程序 | 驱动程序丰富，版本更新频繁。默认安装程序里面一般包含有该版本发布时流行的硬件驱动程序，之后所出的新硬件驱动依赖于硬件厂商提供。对于一些老硬件，如果没有了原配的驱动有时很难支持。另外，有时硬件厂商未提供所需版本的 Windows 下的驱动，也会比较头痛。 | 由志愿者开发，由 Linux 核心开发小组发布，很多硬件厂商基于版权考虑并未提供驱动程序，尽管多数无需手动安装，但是涉及安装则相对复杂，使得新用户面对驱动程序问题（是否存在和安装方法）会一筹莫展。但是在开源开发模式下，许多老硬件尽管在Windows下很难支持的也容易找到驱动。HP、Intel、AMD 等硬件厂商逐步不同程度支持开源驱动，问题正在得到缓解。 |
+| 使用     | 使用比较简单，容易入门。图形化界面对没有计算机背景知识的用户使用十分有利。 | 图形界面使用简单，容易入门。文字界面，需要学习才能掌握。     |
+| 学习     | 系统构造复杂、变化频繁，且知识、技能淘汰快，深入学习困难。   | 系统构造简单、稳定，且知识、技能传承性好，深入学习相对容易。 |
+| 软件     | 每一种特定功能可能都需要商业软件的支持，需要购买相应的授权。 | 大部分软件都可以自由获取，同样功能的软件选择较少。           |
+
+而在开发中，无论是开发环境的部署，还是安装软件包，Linux都要比Windows方便得多<img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_37_doge.png" style="zoom:25%;" />
+
+### Why WSL?
+
+在Windows电脑上安装Linux，无非就这几种方案：
+
+- 双系统
+- 虚拟机
+- 子系统（Windows Subsystem for Linux）
+
+在双系统、虚拟机、子系统三者中，首先排除了双系统，首先不能随时切换，而且在新的系统中重现当前工作环境（不只是开发环境）代价太大。而虚拟机需要额外安装软件且有额外资源开销，于是尝试在子系统中折腾一把。
+
+## 启用&安装
+
+### 启用 WSL
+
+控制面板→程序和功能→启用或关闭Windows功能（也有的Win10版本这个叫打开或关闭Windows功能）
+
+或者直接`Win+S`输入`q`，反正我这里是能匹配到启用或关闭Windows功能<img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_64_shounuehuaji.png" style="zoom:25%;" />
+
+<img src="https://s1.ax1x.com/2020/07/29/aZZQ61.png" style="zoom:67%;" />
+
+找到“适用于 Linux 的 Windows 子系统”，勾选它，点击确定
+
+然后Windows就会开始添加功能了，添加完毕后可能需要重启
+
+### 安装 Ubuntu
+
+完成之后，去 Microsoft Store 搜索 Ubuntu ，下载
+
+<img src="https://s1.ax1x.com/2020/07/29/aZAHtH.png" style="zoom:67%;" />
+
+安装完成之后先别急着启动，先进行下一步
+
+### 更新 WSL 2
+
+打开链接下载更新WSL2： [更新 WSL 2 Linux 内核](https://docs.microsoft.com/zh-cn/windows/wsl/wsl2-kernel)
+
+### 启动 Ubuntu
+
+做完上面的操作，就可以启动 Ubuntu 啦<img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_37_doge.png" style="zoom:25%;" />
+
+![](https://s1.ax1x.com/2020/07/29/aZK0dx.png)
+
+如图，待安装完毕后，即可输入用户名和密码，开始使用Ubuntu啦<img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_37_doge.png" style="zoom:25%;" />
+
+（顺便一说，在 cmd 中输入 bash 也能启动WSL）
+
+## 部署
+
+### Ubuntu换源
+
+这一步不是必须的。前提是你的网络足够好，或者你有翻山越岭的本领<img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_64_shounuehuaji.png" style="zoom:25%;" />
+首先，切换到超级用户。执行`sudo su`并输入你的密码。
+
+然后，既然要修改系统文件，那么肯定要先备份，复制一下我们需要的修改的`sources.list`。
+
+```bash
+cp /etc/apt/sources.list /etc/apt/sources.list.bak
+```
+
+然后执行`vi /etc/apt/sources.list`，这里说一下vi编辑器的用法，因为我整这个整了半天都没搞定<img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_64_shounuehuaji.png" style="zoom:25%;" />
+
+<img src="https://s1.ax1x.com/2020/07/29/aZ35RK.png" style="zoom:67%;" />
+
+执行完了你看到的大概是这样一个样子，这就是vi编辑器，想了解更多可以去自行学习<img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_37_doge.png" style="zoom:25%;" />
+
+按**`i`**键进入编辑模式
+
+在文件最开始添加如下信息（定位到文件最开始，换行，**`🖱右键`**粘贴）：
+
+```
+deb http://mirrors.aliyun.com/ubuntu/ bionic main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ bionic-security main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ bionic-updates main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ bionic-proposed main restricted universe multiverse
+deb http://mirrors.aliyun.com/ubuntu/ bionic-backports main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ bionic main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ bionic-security main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ bionic-updates main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ bionic-proposed main restricted universe multiverse
+deb-src http://mirrors.aliyun.com/ubuntu/ bionic-backports main restricted universe multiverse
+```
+
+按**`ESC`**键退出编辑模式
+
+输入**`:wq`**保存并退出vi编辑器
+
+### 更新&升级
+
+```bash
+sudo apt update
+sudo apt upgrade
+sudo apt autoremove
+```
+
+执行此过程需要一定的时间，请坐和放宽<img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_64_shounuehuaji.png" style="zoom:25%;" />
+
+其中第三个命令不是必须的，但是既然有用不到的包何不及时清理呢？
+另外说明一下，如果命令执行期间有报错或卡住的情况，直接`ctrl+C`重新执行即可，它会自动跳过之前已完成的部分（get 序号会从1重新开始计数，但不会重新get已完成的包）。
+另外如果遇到`bluemen`的报错，可以忽略不管。
+
+**后面没时间写了，先直接复制粘贴吧，有空再好好改<img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_64_shounuehuaji.png" style="zoom:25%;" /><img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_37_doge.png" style="zoom:25%;" />**
+
+
+### 安装桌面环境xubuntu
+
+```bash
+sudo apt install xubuntu-desktop
+```
+
+~~这可能需要几分钟~~，请务必坐和放宽<img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_64_shounuehuaji.png" style="zoom:25%;" />
+
+说明一下，本人最开始执着于`gnome`桌面，在各种google无果后选择了搜错过程中出现次数最多的`xfce4`，同时了解到`xubuntu`是`xfce4`的一个扩展，于是采用`xubuntu`桌面环境，在使用了几天后发现还挺好用，它里面内置了若干`panel`可供替换（这个后面再说）。如果弹出选择gdm3或lightdm，选择gdm3
+
+### 安装远程桌面服务xrdp
+
+```bash
+sudo apt install xrdp
+```
+
+这个就是直接跟windows交互的哥们了，有关其原理的介绍可以参考[这篇文章](https://blog.csdn.net/zhangxinrun/article/details/7332049)，不过不看也没关系，不影响使用。
+另外有的教程会让你安装`xorg`与`xfce4`，这两个的安装其实在上一步`sudo apt install xubuntu-desktop`的时候已经完成了。
+
+### 配置xrdp端口
+
+```bash
+sudo sed -i 's/port=3389/port=3390/g' /etc/xrdp/xrdp.ini
+```
+
+这里面3389是默认配置，这里将其改为3390是避免和windows的端口冲突。我们折腾的是子系统不是虚拟机，两边的端口号是通的。比如在wsl中开一个8080端口的WebServer，在windows中开浏览器是可以直接访问的。
+
+### 配置xsession
+
+```bash
+sudo echo xfce4-session >~/.xsession
+```
+
+这一步其实是在告诉系统，开启桌面环境的时候开启什么桌面环境。为什么是`xfce4`呢，上面也说了`xubuntu`本质就是`xfce4`加上一些插件与软件。
+
+### 重启一下电脑
+
+不重启的时候会报错
+
+```
+connecting to sesman ip 127.0.0.1 port 3350 
+sesman connect ok
+sending login info to session manager, please wait...
+login successful for display 25
+started connecting
+connection problem, giving up
+some problerm
+```
+
+### 启动xrdp
+
+```bash
+sudo service xrdp restart
+```
+
+这里用`start`也行`restart`也行，既然都可以，当然后者用起来更方便。
+启动成功后会看到如下提示
+
+```
+ * Starting Remote Desktop Protocol server 
+[20190514-19:06:59] [DEBUG] Testing if xrdp can listen on 0.0.0.0 port 3390.
+[20190514-19:06:59] [DEBUG] Closed socket 6 (AF_INET6 :: port 3390)[ OK ]
+```
+
+### 远程连接
+
+在windows开始菜单中搜`远程桌面`打开后在`计算机`后面输入`localhost:3390`点击连接。首次连接可能需要较长时间。
+用户名密码可以先写，也可以不写，网上有教程还勾选了保存凭据的，这个看个人习惯吧，我用软件从来不勾选记住密码的。
+
+### 汉化
+
+其实Linux汉化显得很low，但咱这英语水平在处理一些感叹号弹窗的时候看不懂提示不敢瞎点yes还是no，所以汉化步骤放在这，看官依据个人口味吧。
+
+```bash
+sudo dpkg-reconfigure locales
+```
+
+然后一直按键盘上的`↓`找到`zh_CN UTF-8`，然后按空格勾选，再`tab`切换到`ok`上回车，接下来的界面选`zh`再回车。
+这一步完成后可能会导致键盘不可用，不用激动，点击桌面左上角图标注销后重进就好了。
+首次进入中文界面会提示是否重命名那几个文件夹，建议保持英文状态，因为有些路径是写进配置文件了的，重命名会带来不必要的麻烦。
+
+## 常见问题
+
+### **1、远程桌面闪退，shell可以用的问题：**
+
+#### （1）需要在该用户目录创建一个.xsession：
+
+```bash
+touch .xsession
+```
+
+#### （2）里面写“xfce4-session”一句话就行：
+
+```bash
+echo xfce4-session >~/.xsession
+```
+
+#### （3）然后进入到用户目录下
+
+```bash
+sudo chown username:username .xsession
+```
+
+### **2、windows桌面连接后远程使用Terminal时，Tab键无法自动补全。**
+
+默认情况下，是使用ctrl+i的。 Tab键被占用作为其他的快捷键。想要修改，在windows manager（窗口管理器）中，keyboard 里将用到 Super + Tab的快捷键clear掉即可。
+
+### **3、远程桌面进去之后没有菜单栏：**
+
+右键面板->面板首选项->backup and restore -> apply configuration图标
+
+### **4、运行一段时间后，出现xrdp_mm_process_login_response: login failed**
+
+问题原因：远程桌面没有正确关闭，虽然在windows 系统关闭远程桌面连接，但是在里linux上的进程还在运行，导致连接数量达到上限，出现问题。
+解决：通过设置sesman.in文件内的参数解决：
+
+```bash
+cat /etc/xrdp/sesman.ini
+vi /etc/xrdp/sesman.ini
+```
+
+可以修改会话设置 ：将最大会话限制该大 MaxSessions=50; 将KillDisconnected=1；则每次断开连接时，linux都会关闭会话进程。 然后重启/etc/init.d/xrdp restart 就可解决问题
+
+### **5、错误如下：**
+
+```bash
+connecting to sesman ip 127.0.0.1 port 3350
+sesman connect ok
+sending login info to session manager, please wait
+xrdp_mm_process_login_response: login successful for display
+started connecting
+connecting to 127.0.0.1:5921
+tcp connected
+security level is 2 
+password failed
+error - problem connecting
+```
+
+#### （1）第一种情况：
+
+```bash
+sudo vim /var/log/xrdp-sesman.log
+```
+
+xrdp-sesman.log下错误为：
+
+```bash
+[INFO ] starting Xvnc session...
+[ERROR] X server for display 10 startup timeout[INFO ] starting xrdp-sessvc - xpid=2924 - wmpid=2923
+[ERROR] X server for display 10 startup timeout
+[ERROR] another Xserver is already active on display 10
+[DEBUG] aborting connection... 
+```
+
+如果你的log也有类似 X server for display 10 startup timeout和another Xserver is already active on display 10。问题根源在于tightvnc，出现问题的版本跟X字体有冲突，导致连接Xserver出错。
+解决办法：
+
+```bash
+apt-get purge tightvnc xrdp
+apt-get install tightvncserver xrdp
+```
+
+最后，启动xrdp服务
+
+```bash
+sudo /etc/init.d/xrdp restart
+```
+
+此时会启用相应端口，配置方面默认即可。通过命令：
+
+```bash
+netstat  -tnl
+```
+
+查看 3350 3389 5910 这三个端口处于LISTEN，一般就没问题了。
+
+#### （2）第二种情况：
+
+如果日志里跟第一种情况不同，可以考虑如下方式解决：
+
+```bash
+sudo vim /etc/xrdp/sesman.ini
+```
+
+添加如下两行：
+
+```bash
+param8=-SecurityTypes
+param9=None
+```
+
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20200519221627710.png)
+修改完重启xrdp服务:
+
+```bash
+sudo /etc/init.d/xrdp restart
+```
+
+若上述问题还是无法解决，可卸载xrdp服务，进行重装，并如上进行同样的操作，修改sesman.ini文件。卸载xrdp的命令为：
+
+```bash
+sudo apt-get purge xrdp
+sudo apt-get purge tightvncserver
+```
+
+## 参考资料
+
+https://www.runoob.com/linux/linux-intro.html
+
+**https://blog.csdn.net/xmh19936688/article/details/90212960**
+
+https://blog.csdn.net/weixin_41921520/article/details/106224404

@@ -1,0 +1,45 @@
+---
+layout: post
+title: 今天为Blog添加了Live2D，希望大家喜欢
+date: 2020-10-24 11:09:17 +0800
+categories: Daily
+tags: 
+img: https://gitee.com/jieran233/pic-bed/raw/master/uTools_1603512925203.png
+---
+祝各位程序员节快乐！
+
+（众所周知，程序员就是二次元~~，越二次元编程越强~~）<img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_64_shounuehuaji.png" style="zoom:25%;" /><img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_37_doge.png" style="zoom:25%;" />
+
+
+
+## 简介
+
+关于Live2D的科普请移步萌娘百科
+
+https://zh.moegirl.org.cn/Live2D
+
+> 效果
+
+**↙**
+
+（按住鼠标并拖动可以玩哦~<img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_64_shounuehuaji.png" style="zoom:25%;" />）
+
+> 实现
+
+- 又创建了一个Gitee仓库，存入了Live2D资源（模型资源不在其内），并部署Gitee Pages，
+
+（链接：https://jieran233.gitee.io/live2d_waifu/）<img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_37_doge.png" style="zoom:25%;" />
+
+- 在Blog页面中添加透明背景的iframe框架，调整布局即可<img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_37_doge.png" style="zoom:25%;" />
+
+> 已知问题
+
+- 在部分设备上可能存在布局不合理的问题（显示不全、位置偏移、遮挡内容）
+- 无法点击穿透（在iframe框架区域内点击等，只有Live2D会响应，框架下层的元素无法响应）
+- 无法移动位置
+- 触屏操作貌似无效
+
+- 影响页面加载速度，占用CPU（硬伤）
+
+欢迎提交Issus或Pull Request<img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_64_shounuehuaji.png" style="zoom:25%;" />
+
