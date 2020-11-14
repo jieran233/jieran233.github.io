@@ -1,0 +1,116 @@
+---
+layout: post
+title: 开箱一块希捷铭系列移动硬盘
+date: 2020-11-14 19:21:40 +0800
+categories: Daily
+tags: 开箱
+img: https://gitee.com/jieran233/pic-bed/raw/master/20201114_112957.jpg
+---
+<center>度盘里的ACGN资源终于有地方存储啦！<br/>U盘和电脑里的文件终于有地方备份啦！<br/>几十个GB的文件也不觉得大啦！<br/>就连我自己都觉得...</center>
+
+<img src="https://gitee.com/jieran233/pic-bed/raw/master/d%20(110).jpg" style="zoom: 60%;" />
+
+<center><img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_64_shounuehuaji.png" style="zoom:25%;" /><img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_64_shounuehuaji.png" style="zoom:25%;" /></center>
+
+好了，步入正题
+
+## 前言
+
+首先说下我为什么需要移动硬盘。就如前面导语所说，我希望有一个存ACGN资源（比如BD番剧、Galgame等大文件）以及备份各种文件的空间，想要一些便携性，又觉得使用网盘（例如某限速网盘）需要来回下载（非常）不方便（还费钱）<img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_37_doge.png" style="zoom:25%;" />
+
+如果你也有购买移动硬盘的需求，可以看看这篇知乎文章，作者写的很详细，对我很有帮助：
+
+[（十一月更新）全价位移动硬盘选购攻略，教你明确需求选对最适合自己的！ - 杰国jay 的文章 - 知乎](https://zhuanlan.zhihu.com/p/157904023)
+
+<hr/>
+
+实物就如文章封面那样啦，如果看不清下面还有更多的图
+
+> 顺便一说，各位在本文章中看到的照片可能是90°旋转的，不过要是有颈椎病应该能给治好<img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_64_shounuehuaji.png" style="zoom:25%;" />
+>
+> 应该是因为这手机拍的图片是通过图片EXIF信息实现旋转的，也不太懂（主要是没时间以及**懒**），欢迎为我科普<img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_37_doge.png" style="zoom:25%;" />
+
+我入手的是2TB银色，**[【京东🔗】](https://item.jd.com/100004688412.html)**
+
+就如宣传的一样，本产品拥有**2TB超大存储容量**，**自动备份**功能，更有**3年原厂数据恢复**（逐渐营销化）<img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_64_shounuehuaji.png" style="zoom:25%;" /><img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_64_shounuehuaji.png" style="zoom:25%;" /><img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_64_shounuehuaji.png" style="zoom:25%;" />
+
+顺便一说，这还是我第一次买希捷硬盘（之前翻车过一个1T西数，家里有一个1T东芝的），感觉还蛮好的
+
+## 拆包装
+
+由于之前在知乎上看到说移动硬盘非常娇贵，一摔就废，因此我在拆包装的时候也是格外小心，也提醒大家务必要**注意机械硬盘的的防摔和数据备份**，不然出了问题很少能自己解决。
+
+> **包装盒**
+
+<img src="https://gitee.com/jieran233/pic-bed/raw/master/20201114_111922.jpg" style="zoom: 24%;" />
+
+<img src="https://gitee.com/jieran233/pic-bed/raw/master/20201114_111936.jpg" style="zoom: 24%;" />
+
+> **全家福**
+
+还赠送了Adobe服务。作为vposy的忠实用户，这赠品用不着<img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_64_shounuehuaji.png" style="zoom:25%;" />
+
+<img src="https://gitee.com/jieran233/pic-bed/raw/master/20201114_112712.jpg" style="zoom: 23.5%;" />
+
+> **本体&数据线**
+
+可见是USB3.0的，不过速度够用了
+
+<img src="https://gitee.com/jieran233/pic-bed/raw/master/20201114_112957.jpg" style="zoom: 23.5%;" />
+
+## 上电测试
+
+<img src="https://gitee.com/jieran233/pic-bed/raw/master/20201114_181352.jpg" style="zoom: 23.5%;" />
+
+> 卷标&图标
+
+补充：默认文件系统exFAT
+
+<img src="https://gitee.com/jieran233/pic-bed/raw/master/UTOOLS-CLIPBOARD-1605325023039.png" style="zoom: 23.5%;" />
+
+> **附带文件**
+
+那几个隐藏文件是用来检测序列号（最上面的文件夹）和设置Win和Mac的硬盘图标的（Mac的图标设置方法还是头一次见）
+
+剩下的是一个没用的软件（不是数据备份软件）和一份保修说明
+
+<img src="https://gitee.com/jieran233/pic-bed/raw/master/UTOOLS-CLIPBOARD-1605325039293.png" style="zoom: 23.5%;" />
+
+> **坏道检测**
+
+看了一眼全是优秀我就给停了，怕检测坏道影响使用寿命，而且硬盘容量很多，全部跑下来非常费时间
+
+<img src="https://gitee.com/jieran233/pic-bed/raw/master/UTOOLS-CLIPBOARD-1605325127930.png" style="zoom: 23.5%;" />
+
+
+
+于是大概看了下一切正常就开始往里塞东西了<img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_37_doge.png" style="zoom:25%;" />
+
+> **写入速度测试（复制文件+下载文件）**
+
+× 写入速度测试
+
+√ 实际使用案例
+
+<img src="https://gitee.com/jieran233/pic-bed/raw/master/uTools_1605334942414.png" style="zoom: 23.5%;" />
+
+> ToolKit备份软件
+
+比较鸡肋，连图都没截<img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_37_doge.png" style="zoom:25%;" />
+
+我想从U盘同步备份到移动硬盘里都不能行，还是祖传的复制粘贴好用。有空再去找找文件同步备份的软件，比祖传的方便<img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_64_shounuehuaji.png" style="zoom:25%;" />
+
+## 总结
+
+外观上还是很满意的，就是~~灯不大灯不亮~~灯不会闪（指示灯只是常亮，之前家里的移动硬盘读写数据时指示灯都会~~像灯等灯等灯一样~~闪烁的）<img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_64_shounuehuaji.png" style="zoom:25%;" />
+
+2TB的容量对我来说还是绰绰有余，之前差点想买4TB<img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_37_doge.png" style="zoom:25%;" />（想得美）
+
+附赠的ToolKit软件自动备份比较鸡肋
+
+至于数据恢复的服务，自然是平时用着更放心了
+
+双十一买的，价格也是很香
+
+用着很舒服，去推Gal啦（很快~~还没开推~~就开学了），溜啦~
+
