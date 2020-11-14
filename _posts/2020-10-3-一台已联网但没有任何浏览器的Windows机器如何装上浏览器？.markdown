@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 一台已联网但没有任何浏览器的Windows机器如何装上浏览器？
-date:  2020-11-14 20:44:23 +0800
+date:  2020-10-13 20:44:23 +0800
 categories: Technology
 tags: 浏览器 Windows
 img: 
