@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 将word中的换行符统一替换为回车符
-date:  21:01:42 +0800
+date:  2020-10-13  21:01:42 +0800
 categories: undefined
 tags: Technology
 img: 
