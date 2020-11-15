@@ -4,11 +4,9 @@ title: 开箱一块希捷铭系列移动硬盘
 date: 2020-11-14 19:21:40 +0800
 categories: Daily
 tags: 开箱
-img: https://gitee.com/jieran233/pic-bed/raw/master/20201114_112957.jpg
+img: https://gitee.com/jieran233/pic-bed/raw/master/20201114_181352.jpg
 ---
-<center>度盘里的ACGN资源终于有地方存储啦！<br/>U盘和电脑里的文件终于有地方备份啦！<br/>几十个GB的文件也不觉得大啦！<br/>就连我自己都觉得...<br/><br/><img src="https://gitee.com/jieran233/pic-bed/raw/master/d%20(110).jpg" style="zoom: 60%;" /><br/><br/><img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_64_shounuehuaji.png" style="zoom:25%;" /><img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_64_shounuehuaji.png" style="zoom:25%;" /></center>
-
-好了，步入正题
+<center>度盘里的ACGN资源终于有地方存储啦！<br/>U盘和电脑里的文件终于有地方备份啦！<br/>几十个GB的文件也不觉得大啦！<br/>就连我自己都觉得...<br/><br/></center><center><img src="https://gitee.com/jieran233/pic-bed/raw/master/d%20(110).jpg" style="zoom: 60%;" /></center><br/><center><img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_64_shounuehuaji.png" style="zoom:25%;" /><img src="https://gitee.com/jieran233/pic-bed/raw/master/coolapk_emotion_64_shounuehuaji.png" style="zoom:25%;" /><br/>好了，步入正题</center>
 
 ## 前言
 
@@ -55,8 +53,6 @@ img: https://gitee.com/jieran233/pic-bed/raw/master/20201114_112957.jpg
 <img src="https://gitee.com/jieran233/pic-bed/raw/master/20201114_112957.jpg" style="zoom: 23.5%;" />
 
 ## 上电测试
-
-<img src="https://gitee.com/jieran233/pic-bed/raw/master/20201114_181352.jpg" style="zoom: 23.5%;" />
 
 > 卷标&图标
 
