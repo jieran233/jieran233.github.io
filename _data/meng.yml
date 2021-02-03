@@ -70,7 +70,7 @@ animation: # animate.css, see https://github.com/daneden/animate.css
 
 head_card:
   switch: true
-  left_img: "https://gitee.com/jieran233/pic-bed/raw/master/Kamisama-day_Anime_KV2.jpg"
-  left_text: "最近在看：《成神之日》"
+  left_img: "https://img.moegirl.org.cn/common/1/12/%E4%B8%89%E8%89%B2%E7%BB%98%E6%81%8B.png"
+  left_text: "最近在推的Gal：《三色△绘恋》"
   right_img: "https://gitee.com/jieran233/pic-bed/raw/master/Uvvruj.jpg"
   offset_level: 2
