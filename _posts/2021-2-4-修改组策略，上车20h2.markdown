@@ -77,8 +77,8 @@ img: https://gitee.com/jieran233/pic-bed/raw/master/xgzclsc20h2_cover.png
 
 ### 🔗 相关链接
 
-- 20H2发布信息(英文页面) [Windows 10, version 20H2 and Windows Server, version 20H2 | Microsoft Docs](https://docs.microsoft.com/en-us/windows/release-information/status-windows-10-20h2)
-- 家庭版开启组策略 [如何在Win10家庭版中开启组策略？ - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/106225935)
+- [Windows 10, version 20H2 and Windows Server, version 20H2 | Microsoft Docs](https://docs.microsoft.com/en-us/windows/release-information/status-windows-10-20h2)
+- [如何在Win10家庭版中开启组策略？ - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/106225935)
 
 ### 📄 参考资料
 
