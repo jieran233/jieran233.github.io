@@ -77,9 +77,9 @@ img: https://gitee.com/jieran233/pic-bed/raw/master/xgzclsc20h2_cover.png
 
 ### 🔗 相关链接
 
-- [Windows 10, version 20H2 and Windows Server, version 20H2 | Microsoft Docs](https://docs.microsoft.com/en-us/windows/release-information/status-windows-10-20h2)
-- [如何在Win10家庭版中开启组策略？ - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/106225935)
+- 20H2发布信息(英文页面) [Windows 10, version 20H2 and Windows Server, version 20H2 - Microsoft Docs](https://docs.microsoft.com/en-us/windows/release-information/status-windows-10-20h2)
+- 家庭版开启组策略 [如何在Win10家庭版中开启组策略？ - 知乎](https://zhuanlan.zhihu.com/p/106225935)
 
 ### 📄 参考资料
 
-- [微软更新组策略允许IT管理员绕过安全措施快速获得Windows 10新版推送|蓝点网 (landiannews.com)](https://www.landiannews.com/archives/81113.html)
+- [微软更新组策略允许IT管理员绕过安全措施快速获得Windows 10新版推送 - 蓝点网](https://www.landiannews.com/archives/81113.html)
