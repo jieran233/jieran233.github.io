@@ -71,6 +71,6 @@ animation: # animate.css, see https://github.com/daneden/animate.css
 head_card:
   switch: true
   left_img: "https://gitee.com/jieran233/pic-bed/raw/master/%E9%97%BB%E8%A8%80.png"
-  left_text: "项目推荐：闻言"
+  left_text: "项目推荐: 闻言 (github.com/jieran233/WenYan)"
   right_img: "https://gitee.com/jieran233/pic-bed/raw/master/Uvvruj.jpg"
   offset_level: 2
