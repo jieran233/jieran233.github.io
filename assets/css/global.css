@@ -184,7 +184,7 @@ body,header{
 
 /*del标签黑幕*/
 del{
-    text-decoration:none;
+    text-decoration:none!important;
     background-color: #252525;
     color: #252525;
     text-shadow: none;
