@@ -18,27 +18,39 @@ img:
 
 <center><del>现在Blog支持黑幕啦！</del></center>
 
-<center>但网速也大幅提升啦！延迟也降低啦！</center>
+<center>但相比以前网速也大幅提升啦！延迟也降低啦！</center>
 
 <center><del>（因为原来的路由器实在太旧了）</del></center>
 
 ## 外观
 
-包装盒
+> 包装盒
 
-全家福
+![](https://gitee.com/jieran233/pic-bed/raw/master/XDR1850(1).jpg)
 
-主机
+> 全家福
+
+![](https://gitee.com/jieran233/pic-bed/raw/master/XDR1850(2).jpg)
+
+> 路由器
+
+![](https://gitee.com/jieran233/pic-bed/raw/master/XDR1850(3).jpg)
+
+> 路由器背面
+
+![](https://gitee.com/jieran233/pic-bed/raw/master/XDR1850(4).jpg)
+
+> 使用中的路由器
+
+![](https://gitee.com/jieran233/pic-bed/raw/master/XDR1850(5).jpg)
 
 ## 性能
 
+> 网速
 
-
-192.168.1.1
-
-WPA3
-
-测速
+<del>辣鸡网速</del>
+<del>大概是原来路由器的十倍</del>
+<del>![](https://gitee.com/jieran233/pic-bed/raw/master/1613374067466.png)</del>
 
 ## 附录
 
