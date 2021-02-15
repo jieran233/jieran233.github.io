@@ -12,15 +12,15 @@ img:
 
 <center><img src="https://gitee.com/jieran233/pic-bed/raw/master/ee5864913edf7e70feb3296c76227bcc.jpg" style="zoom: 33%;" /></center>
 
-<del><center>（然而宽带只有300兆）</center></del>
+<center><del>（然而宽带只有300兆）</del></center>
 
-<del><center>（然而没有支持Wi-Fi6的设备）</center></del>
+<center><del>（然而没有支持Wi-Fi6的设备）</del></center>
 
-<del><center>现在Blog支持黑幕啦！</center></del>
+<center><del>现在Blog支持黑幕啦！</del></center>
 
 <center>但网速也大幅提升啦！延迟也降低啦！</center>
 
-<del><center>（因为原来的路由器实在太旧了）</center></del>
+<center><del>（因为原来的路由器实在太旧了）</del></center>
 
 ## 外观
 
