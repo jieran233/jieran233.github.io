@@ -44,13 +44,33 @@ img:
 
 ![](https://gitee.com/jieran233/pic-bed/raw/master/XDR1850(5).jpg)
 
+> 路由器管理页面
+
+<del>~~这也算外观？~~</del>
+
+![](https://gitee.com/jieran233/pic-bed/raw/master/192.168.1.1.png)
+
 ## 性能
 
 > 网速
 
 <del>辣鸡网速</del>
+<del>辣鸡移动</del>
 <del>大概是原来路由器的十倍</del>
-<del>![](https://gitee.com/jieran233/pic-bed/raw/master/1613374067466.png)</del>
+
+![](https://gitee.com/jieran233/pic-bed/raw/master/1613374067466.png)
+
+> 安全的WPA3
+
+![](https://gitee.com/jieran233/pic-bed/raw/master/WPA3.png)
+
+> Wi-Fi 满带宽 (300Mbps)
+
+![](https://gitee.com/jieran233/pic-bed/raw/master/300Mbps.png)
+
+## 总结
+
+<center>**这个好欸~**</center>
 
 ## 附录
 
