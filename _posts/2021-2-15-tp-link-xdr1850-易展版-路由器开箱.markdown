@@ -1,0 +1,43 @@
+---
+layout: post
+title: TP-LINK XDR1850 易展版 路由器开箱
+date: 2021-02-15 13:33:12 +0800
+categories: Daily
+tags: 开箱
+img: 
+---
+<center>换掉了家里的旧路由器，爽啦！</center>
+
+<center>千兆双频Wi-Fi6，好耶！</center>
+
+<center><img src="https://gitee.com/jieran233/pic-bed/raw/master/ee5864913edf7e70feb3296c76227bcc.jpg" style="zoom: 33%;" /></center>
+
+<del>（然而宽带只有300兆）</del>
+
+<center>（然而没有支持Wi-Fi6的设备）</center>
+
+<center>但网速也大幅提升啦！延迟也降低啦！</center></center>
+
+<center>（因为原来的路由器实在太旧了）</center>
+
+## 外观
+
+包装盒
+
+全家福
+
+主机
+
+## 性能
+
+
+
+192.168.1.1
+
+WPA3
+
+测速
+
+## 附录
+
+[TL-XDR1850易展版 AX1800双频千兆Wi-Fi 6无线路由器 - TP-LINK官方网站](https://www.tp-link.com.cn/product_1685.html)
