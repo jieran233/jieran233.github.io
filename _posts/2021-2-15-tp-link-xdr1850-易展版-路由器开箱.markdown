@@ -12,11 +12,11 @@ img:
 
 <center><img src="https://gitee.com/jieran233/pic-bed/raw/master/ee5864913edf7e70feb3296c76227bcc.jpg" style="zoom: 33%;" /></center>
 
-<del>（然而宽带只有300兆）</del>
+<center>（然而宽带只有300兆）</center>
 
 <center>（然而没有支持Wi-Fi6的设备）</center>
 
-<center>但网速也大幅提升啦！延迟也降低啦！</center></center>
+<center>但网速也大幅提升啦！延迟也降低啦！</center>
 
 <center>（因为原来的路由器实在太旧了）</center>
 
